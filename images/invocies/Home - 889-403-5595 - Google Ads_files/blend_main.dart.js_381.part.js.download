@@ -1,0 +1,32 @@
+self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
+$__dart_deferred_initializers__.current=function(a,b,c,$){var D={KK:function KK(d){this.a=d},
+fHB(d){var y=null
+switch(d){case E.hr:return B.f("Age",y,y,y,y)
+case E.hp:return B.f("Gender",y,y,y,y)
+case E.hq:return B.f("Parental status",y,y,y,y)
+case E.ik:return B.f("Household income",y,y,y,y)
+default:throw B.E(B.aO("Unsupported criterion type for demographic: "+d.Y(0)))}}},B,A,C,F,E
+a.setFunctionNamesIfNecessary([D])
+D=a.updateHolder(c[214],D)
+B=c[0]
+A=c[269]
+C=c[348]
+F=c[227]
+E=c[2]
+D.KK.prototype={}
+var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
+y(D.KK,B.aeL)})()
+B.b_(b.typeUniverse,JSON.parse('{"l2":{"p":["@","@"],"j":[],"i":["@","@"],"p.K":"@","p.V":"@"},"l3":{"p":["@","@"],"j":[],"i":["@","@"],"p.K":"@","p.V":"@"},"tA":{"dS":[]}}'));(function constants(){var y=a.makeConstList
+A.a08=new D.KK("AFFINITY")
+A.a09=new D.KK("COMPOSITE")
+A.a0a=new D.KK("CUSTOM")
+A.a0b=new D.KK("EXTENDED_DEMO")
+A.a0c=new D.KK("IN_MARKET")
+A.a0d=new D.KK("REMARKETING")
+A.aq6=B.b(y([C.jk,C.jl,C.jm,C.jn,C.jo]),B.c("r<il*>"))
+A.CB=new B.aq([A.a08,C.jk,A.a09,C.jn,A.a0b,C.IZ,A.a0c,C.jl,A.a0d,C.jm,A.a0a,C.jo],B.c("aq<KK*,il*>"))
+A.i1=B.H("a6f")})();(function lazyInitializers(){var y=a.lazyFinal
+y($,"mKf","evx",()=>F.ecl(A.CB.gbb(A.CB),A.CB.gbD(A.CB),B.c("il"),B.c("KK")))})()}
+$__dart_deferred_initializers__["za3FlVVcuf3oYDRUHHvqohbifM4="] = $__dart_deferred_initializers__.current
+
+//# sourceMappingURL=blend_main.dart.js_381.part.js.map

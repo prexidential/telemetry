@@ -1,0 +1,10 @@
+self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
+$__dart_deferred_initializers__.current=function(a,b,c,$){var A
+a.setFunctionNamesIfNecessary([])
+A=c[0]
+var z=a.updateTypes([]);(function lazyInitializers(){var y=a.lazyFinal
+y($,"mD3","e7D",()=>A.bj9(2037,12,30))
+y($,"mvO","etm",()=>$.e7D().fL(0,1))})()}
+$__dart_deferred_initializers__["bDPdwNN9g1fDl6IYG1rRXPaLcVo="] = $__dart_deferred_initializers__.current
+
+//# sourceMappingURL=blend_main.dart.js_342.part.js.map

@@ -1,0 +1,1207 @@
+<!DOCTYPE html>
+<!-- saved from url=(0095)https://cloud.digitalocean.com/projects/f4fa7057-d2ab-46e4-b6e8-beebe5c80989/resources?i=02fe99 -->
+<html lang="en" class="wf-proximanova-n7-active wf-proximanova-n6-active wf-proximanova-n4-active wf-proximanova-n3-active wf-active"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link href="./ADP project - DigitalOcean_files/style.css" type="text/css" rel="stylesheet">
+
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+<meta content="width=1050" name="viewport">
+<title>ADP project - DigitalOcean</title>
+<link color="#0069ff" href="https://cloud.digitalocean.com/mask_icon.svg" rel="mask-icon">
+<link href="https://cloud.digitalocean.com/favicon.png" rel="shortcut icon" type="image/png">
+<link href="https://cloud.digitalocean.com/apple-touch-icon.png" rel="apple-touch-icon">
+
+<meta name="aurora/config/environment" content="%7B%22modulePrefix%22%3A%22aurora%22%2C%22environment%22%3A%22production%22%2C%22rootURL%22%3A%22/%22%2C%22locationType%22%3A%22router-scroll%22%2C%22historySupportMiddleware%22%3Atrue%2C%22moment%22%3A%7B%22includeTimezone%22%3A%22all%22%7D%2C%22i18n%22%3A%7B%22defaultLocale%22%3A%22en%22%7D%2C%22EmberENV%22%3A%7B%22FEATURES%22%3A%7B%7D%7D%2C%22APP%22%3A%7B%22bucketLocation%22%3A%22%7B%24region%7D.digitaloceanspaces.com%22%2C%22cloudTabs%22%3A%7B%22/settings/api%23access-tokens%22%3A%22api.tokens%22%2C%22/settings/api%23dev-apps%22%3A%22api.applications%22%2C%22/settings/api%23security%22%3A%22api.access%22%2C%22/images%23actions-snapshots%22%3A%22images.snapshots%22%2C%22/images%23actions-backups%22%3A%22images.backups%22%2C%22/images%23actions-custom-images%22%3A%22images.customImages%22%2C%22/droplets/%28%5C%5Cd+%29%23actions-power%22%3A%22droplet%5B%241%5D.power%22%2C%22/droplets/%28%5C%5Cd+%29%23actions-access%22%3A%22droplet%5B%241%5D.access%22%2C%22/droplets/%28%5C%5Cd+%29%23actions-resize%22%3A%22droplet%5B%241%5D.resize%22%2C%22/droplets/%28%5C%5Cd+%29%23actions-snapshots%22%3A%22droplet%5B%241%5D.snapshots%22%2C%22/droplets/%28%5C%5Cd+%29%23actions-settings%22%3A%22droplet%5B%241%5D.networking%22%2C%22/droplets/%28%5C%5Cd+%29%23actions-backups%22%3A%22droplet%5B%241%5D.backups%22%2C%22/droplets/%28%5C%5Cd+%29%23actions-graphs%22%3A%22droplet%5B%241%5D.graphs%22%2C%22/droplets/%28%5C%5Cd+%29%23actions-history%22%3A%22droplet%5B%241%5D.history%22%2C%22/droplets/%28%5C%5Cd+%29%23actions-destroy%22%3A%22droplet%5B%241%5D.destroy%22%2C%22/networking%23actions-floating-ip%22%3A%22networking.floatingIp%22%2C%22/domains%23tab-floating-IP%22%3A%22networking.floatingIp%22%2C%22/networking%23actions-domains%22%3A%22networking.domains%22%2C%22/networking%23tab-domains%22%3A%22networking.domains%22%2C%22/networking%23actions-ptr%22%3A%22networking.ptr%22%7D%2C%22featureFlippedCloudTabs%22%3A%7B%7D%2C%22contexts%22%3A%5B%7B%22cloudUrlRegex%22%3A%22/droplets/new%22%2C%22searchQuery%22%3A%22How%20do%20I%20create%20a%20Droplet%3F%22%7D%2C%7B%22cloudUrlRegex%22%3A%22/droplets%22%2C%22searchQuery%22%3A%22What%20is%20a%20Droplet%3F%22%7D%2C%7B%22cloudUrlRegex%22%3A%22/images%22%2C%22searchQuery%22%3A%22What%20is%20an%20Image%3F%22%7D%2C%7B%22cloudUrlRegex%22%3A%22/domains%22%2C%22searchQuery%22%3A%22How%20do%20I%20edit%20DNS%20records%20for%20my%20domain%3F%22%7D%2C%7B%22cloudUrlRegex%22%3A%22/applications%22%2C%22searchQuery%22%3A%22How%20can%20I%20use%20the%20API%3F%22%7D%2C%7B%22cloudUrlRegex%22%3A%22/settings/billing%22%2C%22searchQuery%22%3A%22Where%20can%20I%20find%20my%20billing%20history%3F%22%7D%2C%7B%22cloudUrlRegex%22%3A%22/settings/team%22%2C%22searchQuery%22%3A%22What%20are%20team%20accounts%3F%22%7D%2C%7B%22cloudUrlRegex%22%3A%22/settings/referrals%22%2C%22searchQuery%22%3A%22What%20is%20the%20referral%20program%3F%22%7D%2C%7B%22cloudUrlRegex%22%3A%22/settings/security%22%2C%22searchQuery%22%3A%22How%20can%20I%20improve%20Droplet%20security%3F%22%7D%2C%7B%22cloudUrlRegex%22%3A%22/settings%22%2C%22searchQuery%22%3A%22What%20settings%20can%20I%20change%3F%22%7D%5D%2C%22defaultSearchQuery%22%3A%22What%20is%20a%20Droplet%3F%22%2C%22WEBSOCKET_HOST%22%3A%22wss%3A//push.digitalocean.com/ws-notifications%22%2C%22MONGODB_WEBSOCKET_HOST%22%3A%22wss%3A//database-logs.digitalocean.com%3A443%22%2C%22name%22%3A%22aurora%22%2C%22version%22%3A%220.0.0+1b8b3cc6%22%7D%2C%22torii%22%3A%7B%22providers%22%3A%7B%22github-proxy%22%3A%7B%22requestTokenUri%22%3A%22/auth/github%22%7D%2C%22twitter%22%3A%7B%22requestTokenUri%22%3A%22/auth/twitter%22%7D%2C%22google-proxy%22%3A%7B%22requestTokenUri%22%3A%22/auth/google%22%2C%22scope%22%3A%22readonly%22%7D%7D%7D%2C%22sentry%22%3A%7B%22release%22%3A%221b8b3cc%22%2C%22dsn%22%3A%22https%3A//cf947f5955914cd392431ffeba297927@o45439.ingest.sentry.io/97837%22%2C%22debug%22%3Afalse%2C%22environment%22%3A%22production%22%2C%22exposedPropertyName%22%3A%22logger%22%2C%22serviceName%22%3A%22logger%22%2C%22allowUrls%22%3A%5B%7B%7D%5D%2C%22tracesSampleRate%22%3A0.0005%2C%22globalErrorCatching%22%3Atrue%2C%22ignoreErrors%22%3A%5B%22/%5Esentry-ignore/%22%2C%22list%5Bi%5D%20is%20not%20a%20function%22%2C%22Cannot%20create%20property%20%27oncontextmenu%27%20on%20boolean%20%27true%27%22%2C%22container.className.match%20is%20not%20a%20function%22%2C%22Cannot%20read%20property%20%27manipulate_settings%27%20of%20undefined%22%2C%22plugin.setSuspendState%20is%20not%20a%20function%22%2C%22Cannot%20read%20property%20%27Event%27%20of%20null%22%2C%22can%27t%20assign%20to%20properties%20of%20%28new%20Boolean%28true%29%29%3A%20not%20an%20object%22%2C%22Error%20calling%20method%20on%20NPObject.%22%2C%22androidInterface%20is%20not%20defined%22%2C%22fns%5Bi%5D%20is%20not%20a%20function%22%2C%22can%27t%20redefine%20non-configurable%20property%20%5C%22blockAdBlock%5C%22%22%2C%22can%27t%20redefine%20non-configurable%20property%20%5C%22fuckAdBlock%5C%22%22%2C%22kDetect%20is%20not%20defined%22%2C%22InvalidAccessError%22%2C%7B%7D%2C%22Unknown%20Error%22%2C%22Forbidden%22%2C%22Internal%20Server%20Error%22%2C%22Unauthorized%22%2C%22Unhandled%20Promise%20error%20detected%22%2C%22window._castle%20is%20not%20a%20function%22%2C%22No%20Reason%20Phrase%22%2C%22401%3A%20OK%22%2C%22403%3A%20OK%22%2C%22401%3A%20HTTP/2.0%20401%22%2C%22403%3A%20HTTP/2.0%20403%22%2C%22NotFoundError%22%2C%22csRestoreTitle%20is%20not%20defined%22%2C%22A%20requested%20file%20or%20directory%20could%20not%20be%20found%20at%20the%20time%20an%20operation%20was%20processed%22%2C%220x805e0006%22%2C%22ambn%22%2C%22keyboardinputReset%22%2C%22can%27t%20redefine%20non-configurable%20property%20%5C%22userAgent%5C%22%22%2C%22Permission%20denied%20to%20access%20property%20%5C%22dispatchEvent%5C%22%20on%20cross-origin%20object%22%2C%22ResizeObserver%20loop%20limit%20exceeded%22%2C%22ResizeObserver%20loop%20completed%20with%20undelivered%20notifications%22%2C%22Permission%20denied%20to%20access%20property%20%5C%22document%5C%22%22%2C%7B%7D%2C%22o%5Br%5D%20is%20not%20a%20function%22%2C%22Error%3A%20AbortError%3A%20The%20operation%20was%20aborted.%22%2C%22Error%3A%20AbortError%3A%20The%20user%20aborted%20a%20request.%22%2C%22ReferenceError%3A%20Can%27t%20find%20variable%3A%20twttr%22%2C%22ReferenceError%3A%20Can%27t%20find%20variable%3A%20instantSearchSDKJSBridgeClearHighlight%27%22%2C%22ReferenceError%3A%20Can%27t%20find%20variable%3A%20WeixinJSBridge%27%22%2C%22ReferenceError%3A%20playBackgroundMusic%20is%20not%20defined%22%2C%22ReferenceError%3A%20%24%20is%20not%20defined%22%2C%22ReferenceError%3A%20jQuery%20is%20not%20defined%22%2C%22ReferenceError%3A%20privateSpecialRepair%20is%20not%20defined%22%2C%22TypeError%3A%20Cannot%20read%20property%20%27getReadModeExtract%27%20of%20undefined%22%2C%22TypeError%3A%20Cannot%20read%20property%20%27getReadModeConfig%27%20of%20undefined%22%2C%22TypeError%3A%20Cannot%20read%20property%20%27getReadModeRender%27%20of%20undefined%22%2C%22TypeError%3A%20null%20is%20not%20an%20object%20%28evaluating%20%27document.head.querySelector%28%5C%22meta%5Bname%3D%27supported-color-scheme...%22%2C%22TypeError%3A%20window.bannerNight%20is%20not%20a%20function%22%2C%22TypeError%3A%20Cannot%20read%20properties%20of%20null%20%28reading%20%27disconnect%27%29%22%2C%22TypeError%3A%20Cannot%20redefine%20property%3A%20BetterJsPop%22%2C%22TypeError%3A%20undefined%20is%20not%20an%20object%20%28evaluating%20%27ceCurrentVideo.currentTime%27%29%22%2C%22Non-Error%20exception%20captured%22%5D%7D%2C%22api-host%22%3A%22https%3A//cloud.digitalocean.com%22%2C%22bucket-api-host%22%3A%22https%3A//cloud.digitalocean.com%22%2C%22avatar-host%22%3A%22https%3A//cloud.digitalocean.com%22%2C%22segment%22%3A%7B%22LOG_EVENT_TRACKING%22%3Afalse%2C%22WRITE_KEY%22%3A%22lisvh8pnfj%22%7D%2C%22slack-app%22%3A%7B%22CLIENT_ID%22%3A%222151811447.211231202706%22%7D%2C%22pager-duty%22%3A%7B%22VENDOR_ID%22%3A%22f8e7f080931bdb30f142%22%7D%2C%22form-keep%22%3A%7B%22FORM_KEEP_URL%22%3A%22https%3A//formkeep.com/f/e4a2b0d87086%22%7D%2C%22google-places-api-key%22%3A%22AIzaSyDApRvY87TybhP0Aca8hWnpWuBz7_wz1qg%22%2C%22taxamo-public-token%22%3A%22public_lZmxCS1HAuGcz2ec_ZfBi8rED8VDaEQ014-pS90RW4k%22%2C%22marketplace-host%22%3A%22https%3A//marketplace.digitalocean.com%22%2C%22prismic-api%22%3A%22https%3A//do-marketplace-testing.cdn.prismic.io/api/v2%22%2C%22algolia-app-id%22%3A%226ZHEUVKJ88%22%2C%22algolia-public-key%22%3A%22c5470567eae7fa1177d43222e18ba086%22%2C%22algolia-marketplace-index%22%3A%22production_MARKETPLACE%22%2C%22dotty-console-install-script-url%22%3A%22https%3A//repos-droplet.digitalocean.com/install.sh%22%2C%22unsupported_flip_byoi_l2_region_slugs%22%3A%5B%22ams2%22%2C%22sfo1%22%2C%22nyc2%22%5D%2C%22api-namespace%22%3A%22api/v1%22%2C%22api-v2-namespace%22%3A%22api/v2%22%2C%22sentry-reporting-uri%22%3A%22https%3A//o45439.ingest.sentry.io%22%2C%22contentSecurityPolicy%22%3A%7B%22default-src%22%3A%22%27none%27%22%2C%22object-src%22%3A%22%27self%27%22%2C%22script-src%22%3A%22%27self%27%20%27unsafe-eval%27%20%27unsafe-inline%27%20https%3A//assets.digitalocean.com%20https%3A//unpkg.com%20https%3A//cdn.optimizely.com%20http%3A//d2wy8f7a9ursnm.cloudfront.net/%20http%3A//cdnjs.cloudflare.com%20https%3A//d2wy8f7a9ursnm.cloudfront.net/%20http%3A//stats.pusher.com%20http%3A//cdn.segment.com%20https%3A//assets.customer.io%20%20http%3A//www.google-analytics.com%20http%3A//use.typekit.net%20https%3A//use.typekit.net%20https%3A//websites.cdn.getfeedback.com%20https%3A//status.digitalocean.com%20https%3A//js.stripe.com%20https%3A//maps.googleapis.com%20https%3A//services.taxamo.com%20cdn.ravenjs.com%20assets.onfido.com%20https%3A//static.cdn.prismic.io%20https%3A//cloud.digitalocean.com%22%2C%22frame-src%22%3A%22%27self%27%20https%3A//marketplace.digitalocean.com%20https%3A//marketplace-staging.digitalocean.com%20https%3A//js.stripe.com%20https%3A//hooks.stripe.com%20https%3A//cloud.digitalocean.com%20https%3A//do-marketplace-testing.prismic.io/%22%2C%22font-src%22%3A%22%27self%27%20http%3A//fonts.gstatic.com%20data%3A%20https%3A//fonts.typekit.net%20https%3A//use.typekit.net%22%2C%22connect-src%22%3A%22%27self%27%20https%3A//logx.optimizely.com%20https%3A//cdn.optimizely.com%20http%3A//api.segment.io%20https%3A//formkeep.com%20https%3A//performance.typekit.net%20http%3A//freegeoip.net/json/%20s2k7tnzlhrpw.statuspage.io%20https%3A//maps.googleapis.com%20https%3A//services-ca.taxamo.com%20token-factory.onfido.com%20telephony.onfido.com%20api.onfido.com%20sync.onfido.com%20wss%3A//sync.onfido.com%20https%3A//do-marketplace-testing.prismic.io%20https%3A//cloud.digitalocean.com%20https%3A//cloud.digitalocean.com%20https%3A//cloud.digitalocean.com%20https%3A//o45439.ingest.sentry.io%20wss%3A//database-logs.s2r1.internal.digitalocean.com%3A443%20wss%3A//database-logs.digitalocean.com%3A443%20ws%3A//localdev.internal.digitalocean.com%3A8081/ws-notifications%20*.internal.digitalocean.com%20*.digitaloceanspaces.com%20https%3A//marketplace-staging.digitalocean.com%20https%3A//marketplace.digitalocean.com%20https%3A//marketplace.digitalocean.com%20https%3A//do-marketplace-testing.cdn.prismic.io%20https%3A//images.prismic.io%22%2C%22img-src%22%3A%22%27self%27%20data%3A%20https%3A//raw.githubusercontent.com%20https%3A//i1.wp.com/cloud.digitalocean.com%20https%3A//i0.wp.com/cloud.digitalocean.com%20https%3A//track.customer.io%20http%3A//www.google-analytics.com%20https%3A//p.typekit.net%20https%3A//ping.typekit.net%20https%3A//performance.typekit.net%20https%3A//secure.gravatar.com%20https%3A//www.gravatar.com%20https%3A//csi.gstatic.com%20http%3A//csi.gstatic.com%20https%3A//maps.gstatic.com%20http%3A//maps.gstatic.com%20app.getsentry.com%20*.internal.digitalocean.com%20*.digitaloceanspaces.com%20https%3A//images.prismic.io%20https%3A//marketplace-assets.digitalocean.com%22%2C%22style-src%22%3A%22%27self%27%20%27unsafe-inline%27%20https%3A//assets.digitalocean.com%20http%3A//fonts.googleapis.com%20http%3A//cdnjs.cloudflare.com%20https%3A//use.typekit.net%20assets.onfido.com%22%2C%22media-src%22%3A%22%27self%27%22%2C%22report-uri%22%3A%22https%3A//o45439.ingest.sentry.io%22%2C%22worker-src%22%3A%22blob%3A%22%7D%2C%22contentSecurityPolicyHeader%22%3A%22Content-Security-Policy-Report-Only%22%2C%22ember-cli-mirage%22%3A%7B%22usingProxy%22%3Afalse%2C%22useDefaultPassthroughs%22%3Atrue%7D%2C%22exportApplicationGlobal%22%3Afalse%7D">
+
+<link rel="stylesheet" href="./ADP project - DigitalOcean_files/vendor-eb2cea606b2290aa6ebd3ce001cc2c28.css">
+<link rel="stylesheet" href="./ADP project - DigitalOcean_files/aurora-9b796b5fba97f371a2caafad146d6e08.css">
+
+
+
+<style>
+body { font-family: "proxima-nova", "proxima nova", "helvetica neue", "helvetica", "arial", sans-serif;}
+</style>
+<script async="" src="./ADP project - DigitalOcean_files/gf.js.download"></script><script type="text/javascript" async="" src="./ADP project - DigitalOcean_files/pendo.js.download"></script><script type="text/javascript" async="" src="./ADP project - DigitalOcean_files/analytics.min.js.download"></script><script type="text/javascript" async="" src="./ADP project - DigitalOcean_files/linkid.js.download"></script><script type="text/javascript" async="" src="./ADP project - DigitalOcean_files/analytics.js.download"></script><script type="text/javascript" async="" src="./ADP project - DigitalOcean_files/js"></script><script type="text/javascript" async="" src="./ADP project - DigitalOcean_files/s.js.download"></script><script async="" src="./ADP project - DigitalOcean_files/gtm.js.download"></script><script src="./ADP project - DigitalOcean_files/ryt7tqg.js.download" async=""></script><script>
+  (function(d) {
+    var config = {
+      kitId: 'ryt7tqg',
+      scriptTimeout: 3000,
+      async: true
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+</script>
+
+<script>
+  (function () {
+    if(typeof window.CustomEvent === 'function') { return false; }
+
+    function CustomEvent(event, params) {
+      params = params || { bubbles: false, cancelable: false, detail: undefined };
+      var evt = document.createEvent( 'CustomEvent' );
+      evt.initCustomEvent( event, params.bubbles, params.cancelable, params.detail );
+      return evt;
+    }
+
+    CustomEvent.prototype = window.Event.prototype;
+
+    window.CustomEvent = CustomEvent;
+  })();
+</script>
+
+  <script>
+    window.addEventListener('DOMContentLoaded', function() {
+      window.cookieconsent_status = 'dismiss';
+      window.dispatchEvent(new CustomEvent('cookieconsent_statuschange', {
+        detail: { status: 'dismiss' }
+      }));
+    });
+  </script>
+
+
+<meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="d+ToSZhl7yrhO2QZm2E5mEEqDC0he8HP9TQw0p6iWjFEhdsqq1DeE9gMUC6jBAypdE9tHkdJpPeRAlK0qJRqCA==">
+<script src="./ADP project - DigitalOcean_files/c.js.download"></script>
+<script>
+  _castle('identify', '2944043');
+</script>
+
+<script type="text/javascript">
+var _user_id = '2944043';
+var _session_id = "9805644b-6f06-48cd-aa0d-56279186b513";
+var _sift = _sift || [];
+_sift.push(['_setAccount', '96ba7c9ef0']);
+_sift.push(['_setUserId', _user_id]);
+_sift.push(['_setSessionId', _session_id]);
+_sift.push(['_trackPageview']);
+(function() {
+  function ls() {
+    var e = document.createElement('script');
+    e.type = 'text/javascript';
+    e.async = true;
+    e.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.siftscience.com/s.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(e, s);
+  }
+  if (window.attachEvent) {
+    window.attachEvent('onload', ls);
+  } else {
+    window.addEventListener('load', ls, false);
+  }
+})();
+</script>
+
+
+<script>
+  window.featureFlags = {
+    dbaas: true, // Out of use DBaaS flippers hardcoded true for the UI until resolution of CENG-1706
+    dbaasOptIn: true,
+    dbaasGa: true,
+    dbaasMysql: true,
+    dbaasRedis: true,
+    dbaasRedisMetrics: true,
+    dbaasPrivateNetworking: true,
+    dbaasSqlModes: true,
+    objectStorage: true,
+    teamsSecureSignIn: true
+  };
+    window.featureFlags.accountServiceBillingHistory = true;
+    window.featureFlags.appsBeta2 = true;
+    window.featureFlags.auroraBalancedPlans = true;
+    window.featureFlags.billingAddressEdit = true;
+    window.featureFlags.billingInvoiceNew = true;
+    window.featureFlags.caaRecords = true;
+    window.featureFlags.clientEngineeringModAccountSettings = true;
+    window.featureFlags.clientEngineeringSidenavMpUpdates = true;
+    window.featureFlags.clientEngineeringUiMarketplaceVp = true;
+    window.featureFlags.cloudNyc1 = true;
+    window.featureFlags.computeBwPolicy = true;
+    window.featureFlags.containers = true;
+    window.featureFlags.containersAutoscale = true;
+    window.featureFlags.containersClusterLinterUi = true;
+    window.featureFlags.containersDashboardLink = true;
+    window.featureFlags.containersGa = true;
+    window.featureFlags.containersOptIn = true;
+    window.featureFlags.containersRequiredUpgrades = true;
+    window.featureFlags.containersSurgeUpgrades = true;
+    window.featureFlags.dbaasAlerting = true;
+    window.featureFlags.dbaasCreateUiV2 = true;
+    window.featureFlags.dbaasExpandedPlans = true;
+    window.featureFlags.dbaasMysqlAuth = true;
+    window.featureFlags.dbaasOnlineMigration = true;
+    window.featureFlags.dbaasPg13 = true;
+    window.featureFlags.dbaasPg14 = true;
+    window.featureFlags.dbaasVpcUi = true;
+    window.featureFlags.defaultCc = true;
+    window.featureFlags.docrUiV2 = true;
+    window.featureFlags.doksUiV2 = true;
+    window.featureFlags.domainsNew = true;
+    window.featureFlags.dropletAssociatedResources = true;
+    window.featureFlags.dropletCarousel = true;
+    window.featureFlags.dropletCreateBackupRequired = true;
+    window.featureFlags.dropletCreateContainerImages = true;
+    window.featureFlags.dropletDottyInsider = true;
+    window.featureFlags.dropletLabels = true;
+    window.featureFlags.dropletsHigherTierTicketRequest = true;
+    window.featureFlags.editCc = true;
+    window.featureFlags.enableFlipForByoi = true;
+    window.featureFlags.expandedDroplet = true;
+    window.featureFlags.flexiblePlanExperiment = true;
+    window.featureFlags.forceShowFlexiblePlanExperiment = true;
+    window.featureFlags.gdprStripe = true;
+    window.featureFlags.globalSearchMultiple = true;
+    window.featureFlags.incidentsEndpoint = true;
+    window.featureFlags.insightsDbaasEmbeddedGrafana = true;
+    window.featureFlags.insightsDoksEmbeddedGrafana = true;
+    window.featureFlags.insightsEmbeddedGrafana = true;
+    window.featureFlags.k8sProjects = true;
+    window.featureFlags.kubernetesAssociatedResources = true;
+    window.featureFlags.letsEncryptAllowWildcards = true;
+    window.featureFlags.letsEncryptCertificates = true;
+    window.featureFlags.liveResizeResolvableByRetry = true;
+    window.featureFlags.loadBalancersHorizontalL7 = true;
+    window.featureFlags.memoryOptimizedCarouselUi = true;
+    window.featureFlags.memoryOptimizedResizeUi = true;
+    window.featureFlags.mongoEnabled = true;
+    window.featureFlags.mongoGa = true;
+    window.featureFlags.mongoSsl = true;
+    window.featureFlags.mpExistingCluster = true;
+    window.featureFlags.mpKeepImageQueryParam = true;
+    window.featureFlags.newBillingAddressForm = true;
+    window.featureFlags.newMonitorCreate = true;
+    window.featureFlags.onfidoRollout = true;
+    window.featureFlags.optimizely = true;
+    window.featureFlags.payNowPage = true;
+    window.featureFlags.paymentAuth = true;
+    window.featureFlags.paypalIpnPaymentServiceMigration = true;
+    window.featureFlags.pricingStep1 = true;
+    window.featureFlags.progressiveProfileV1 = true;
+    window.featureFlags.promosAggregatorCanApplyPromo = true;
+    window.featureFlags.rootPasswordDropletCreate = true;
+    window.featureFlags.salesforceCreateTicketLinks = true;
+    window.featureFlags.securityGroupKubernetesPeerType = true;
+    window.featureFlags.securityGroups = true;
+    window.featureFlags.securityLimitsServiceRollout = true;
+    window.featureFlags.sfo3Frontend = true;
+    window.featureFlags.solutionCards = true;
+    window.featureFlags.spacesAms3 = true;
+    window.featureFlags.spacesCdn = true;
+    window.featureFlags.spacesCdnCustomHostnames = true;
+    window.featureFlags.spacesCors = true;
+    window.featureFlags.spacesFra1 = true;
+    window.featureFlags.spacesNoTrial = true;
+    window.featureFlags.spacesNyc3 = true;
+    window.featureFlags.spacesSfo3 = true;
+    window.featureFlags.spacesSgp1 = true;
+    window.featureFlags.statuspage = true;
+    window.featureFlags.summaryInvoiceTable = true;
+    window.featureFlags.teamsv3CloudTakeoverTeams = true;
+    window.featureFlags.teamsv3NavShellUpdates = true;
+    window.featureFlags.uiMarketplaceVpDbaasOptionsCloud = true;
+    window.featureFlags.verifyCard = true;
+    window.featureFlags.volumeFormat = true;
+    window.featureFlags.volumeSnapshots = true;
+    window.featureFlags.vpcUi = true;
+    window.featureFlags.vpcV3AllDropletsPrivate = true;
+    window.featureFlags.vpcV3UiAurora = true;
+    window.featureFlags.vpcV3UiMod = true;
+    window.featureFlags.walletPayments = true;
+    window.featureFlags.walletPaymentsApple = true;
+</script>
+
+<script>
+  window.pendingDisplayedNotifications = []
+</script>
+
+<script>
+  window.stripePublicKey = "pk_live_ckPnmJJZTFKgKGv6RihxsV8g";
+  window.payPalIpnUrl = "https://www.paypal.com/cgi-bin/webscr";
+  window.payPalMerchantId = "3RAT9TQDQ546C";
+</script>
+
+<style type="text/css">.tk-proxima-nova{font-family:"proxima-nova",sans-serif;}</style><style type="text/css">@font-face{font-family:tk-proxima-nova-n7;src:url(https://use.typekit.net/af/98e3f6/000000000000000077359562/30/l?primer=dd94a7c862054d402ee5ff78f948036a3db906a0253925f50cb4c839a47b5d5e&fvd=n7&v=3) format("woff2"),url(https://use.typekit.net/af/98e3f6/000000000000000077359562/30/d?primer=dd94a7c862054d402ee5ff78f948036a3db906a0253925f50cb4c839a47b5d5e&fvd=n7&v=3) format("woff"),url(https://use.typekit.net/af/98e3f6/000000000000000077359562/30/a?primer=dd94a7c862054d402ee5ff78f948036a3db906a0253925f50cb4c839a47b5d5e&fvd=n7&v=3) format("opentype");font-weight:700;font-style:normal;font-stretch:normal;font-display:swap;}@font-face{font-family:tk-proxima-nova-n6;src:url(https://use.typekit.net/af/e4b1a9/000000000000000077359571/30/l?primer=dd94a7c862054d402ee5ff78f948036a3db906a0253925f50cb4c839a47b5d5e&fvd=n6&v=3) format("woff2"),url(https://use.typekit.net/af/e4b1a9/000000000000000077359571/30/d?primer=dd94a7c862054d402ee5ff78f948036a3db906a0253925f50cb4c839a47b5d5e&fvd=n6&v=3) format("woff"),url(https://use.typekit.net/af/e4b1a9/000000000000000077359571/30/a?primer=dd94a7c862054d402ee5ff78f948036a3db906a0253925f50cb4c839a47b5d5e&fvd=n6&v=3) format("opentype");font-weight:600;font-style:normal;font-stretch:normal;font-display:swap;}@font-face{font-family:tk-proxima-nova-n4;src:url(https://use.typekit.net/af/d45b9a/000000000000000077359577/30/l?primer=dd94a7c862054d402ee5ff78f948036a3db906a0253925f50cb4c839a47b5d5e&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/d45b9a/000000000000000077359577/30/d?primer=dd94a7c862054d402ee5ff78f948036a3db906a0253925f50cb4c839a47b5d5e&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/d45b9a/000000000000000077359577/30/a?primer=dd94a7c862054d402ee5ff78f948036a3db906a0253925f50cb4c839a47b5d5e&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;font-stretch:normal;font-display:swap;}@font-face{font-family:tk-proxima-nova-n3;src:url(https://use.typekit.net/af/56b0cd/00000000000000007735957d/30/l?primer=dd94a7c862054d402ee5ff78f948036a3db906a0253925f50cb4c839a47b5d5e&fvd=n3&v=3) format("woff2"),url(https://use.typekit.net/af/56b0cd/00000000000000007735957d/30/d?primer=dd94a7c862054d402ee5ff78f948036a3db906a0253925f50cb4c839a47b5d5e&fvd=n3&v=3) format("woff"),url(https://use.typekit.net/af/56b0cd/00000000000000007735957d/30/a?primer=dd94a7c862054d402ee5ff78f948036a3db906a0253925f50cb4c839a47b5d5e&fvd=n3&v=3) format("opentype");font-weight:300;font-style:normal;font-stretch:normal;font-display:swap;}</style><style type="text/css">@font-face{font-family:proxima-nova;src:url(https://use.typekit.net/af/98e3f6/000000000000000077359562/30/l?primer=dd94a7c862054d402ee5ff78f948036a3db906a0253925f50cb4c839a47b5d5e&fvd=n7&v=3) format("woff2"),url(https://use.typekit.net/af/98e3f6/000000000000000077359562/30/d?primer=dd94a7c862054d402ee5ff78f948036a3db906a0253925f50cb4c839a47b5d5e&fvd=n7&v=3) format("woff"),url(https://use.typekit.net/af/98e3f6/000000000000000077359562/30/a?primer=dd94a7c862054d402ee5ff78f948036a3db906a0253925f50cb4c839a47b5d5e&fvd=n7&v=3) format("opentype");font-weight:700;font-style:normal;font-stretch:normal;font-display:swap;}@font-face{font-family:proxima-nova;src:url(https://use.typekit.net/af/e4b1a9/000000000000000077359571/30/l?primer=dd94a7c862054d402ee5ff78f948036a3db906a0253925f50cb4c839a47b5d5e&fvd=n6&v=3) format("woff2"),url(https://use.typekit.net/af/e4b1a9/000000000000000077359571/30/d?primer=dd94a7c862054d402ee5ff78f948036a3db906a0253925f50cb4c839a47b5d5e&fvd=n6&v=3) format("woff"),url(https://use.typekit.net/af/e4b1a9/000000000000000077359571/30/a?primer=dd94a7c862054d402ee5ff78f948036a3db906a0253925f50cb4c839a47b5d5e&fvd=n6&v=3) format("opentype");font-weight:600;font-style:normal;font-stretch:normal;font-display:swap;}@font-face{font-family:proxima-nova;src:url(https://use.typekit.net/af/d45b9a/000000000000000077359577/30/l?primer=dd94a7c862054d402ee5ff78f948036a3db906a0253925f50cb4c839a47b5d5e&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/d45b9a/000000000000000077359577/30/d?primer=dd94a7c862054d402ee5ff78f948036a3db906a0253925f50cb4c839a47b5d5e&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/d45b9a/000000000000000077359577/30/a?primer=dd94a7c862054d402ee5ff78f948036a3db906a0253925f50cb4c839a47b5d5e&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;font-stretch:normal;font-display:swap;}@font-face{font-family:proxima-nova;src:url(https://use.typekit.net/af/56b0cd/00000000000000007735957d/30/l?primer=dd94a7c862054d402ee5ff78f948036a3db906a0253925f50cb4c839a47b5d5e&fvd=n3&v=3) format("woff2"),url(https://use.typekit.net/af/56b0cd/00000000000000007735957d/30/d?primer=dd94a7c862054d402ee5ff78f948036a3db906a0253925f50cb4c839a47b5d5e&fvd=n3&v=3) format("woff"),url(https://use.typekit.net/af/56b0cd/00000000000000007735957d/30/a?primer=dd94a7c862054d402ee5ff78f948036a3db906a0253925f50cb4c839a47b5d5e&fvd=n3&v=3) format("opentype");font-weight:300;font-style:normal;font-stretch:normal;font-display:swap;}</style><link href="./ADP project - DigitalOcean_files/prism.css" type="text/css" rel="stylesheet"><script src="./ADP project - DigitalOcean_files/clipboard.js.download"></script><style type="text/css">.text-xs{font-size:11px}.text-s{font-size:13px}.text-m{font-size:15px}.text-l{font-size:18px}.text-xl{font-size:22px}.text-6xl{font-size:72px}.gf-u-reset,.gf-u-reset *{background-attachment:scroll;background-color:transparent;background-image:none;background-position:0 0;background-repeat:repeat;border-color:black;border-style:none;border-width:medium;box-sizing:border-box;clear:none;clip:auto;color:inherit;counter-increment:none;counter-reset:none;direction:inherit;display:block;float:none;font-family:inherit;font-size:inherit;font-style:inherit;font-variant:normal;font-weight:inherit;height:auto;letter-spacing:normal;line-height:inherit;list-style-type:inherit;list-style-position:inside;list-style-image:none;margin:0;min-height:0;max-height:none;max-width:none;outline:invert none medium;overflow:visible;padding:0;position:static;quotes:"" "";table-layout:auto;text-align:inherit;text-decoration:inherit;text-transform:none;unicode-bidi:normal;vertical-align:baseline;visibility:inherit;white-space:normal;width:auto;word-spacing:normal;z-index:auto;border-radius:0;-moz-border-radius:0;-webkit-border-radius:0;opacity:1}.gf-Widget-toggle{background:#222;color:white;font-family:"Helvetica Neue", Arial, Helvetica, sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.gf-is-loading.gf-Widget:before,.gf-Lightbox-overlay .gf-is-loading.gf-Lightbox-container:before{content:"";position:absolute;top:0;bottom:0;right:0;left:0;background:#FFF}.gf-Widget{position:fixed;width:380px;height:325px;visibility:hidden;opacity:0;z-index:999999999;background:transparent;box-sizing:content-box;box-shadow:1px 0 10px rgba(0,0,0,0.2);overflow:hidden;bottom:72px;border-radius:4px;-webkit-transition:visibility 0s 0.3s, opacity 0.3s, bottom 0.3s;-moz-transition:visibility 0s 0.3s, opacity 0.3s, bottom 0.3s;transition:visibility 0s 0.3s, opacity 0.3s, bottom 0.3s}.gf-Widget.gf-Widget--bottomRight{right:20px}.gf-Widget.gf-Widget--bottomLeft{left:20px}.gf-Widget.gf-is-open{visibility:visible;opacity:1;transition-delay:0s;bottom:80px}.gf-Widget--bottomRight{right:15px}.gf-Widget--bottomLeft{left:15px}.gf-Widget-iframe{position:static;border:0;height:100%;width:380px}.gf-Widget-toggle{position:absolute;top:0;right:0px;width:30px;height:30px;text-align:center;cursor:pointer;background:transparent}.gf-Widget-toggle .gf-Widget-toggleIcon{margin-top:4px;margin-right:4px;line-height:26px;font-size:18px;font-weight:200}.gf-is-minimized .gf-Widget-toggle .gf-Widget-toggleIcon{display:none}.gf-is-minimized .gf-Widget-toggle .gf-Widget-toggleIcon.is-lightbox{display:block}.gf-is-open .gf-Widget-toggle .gf-Widget-toggleIcon{display:block}.gf-Lightbox-overlay{position:absolute;top:0;bottom:0;left:0;right:0;position:fixed;z-index:-999999999;background:rgba(0,0,0,0.2);opacity:0;visibility:hidden;background-color:rgba(0,0,0,0.4);background-image:-webkit-radial-gradient(50% 20%, circle, rgba(255,255,255,0.25), rgba(0,0,0,0.8));background-image:radial-gradient(circle at 50% 20%, rgba(255,255,255,0.25), rgba(0,0,0,0.8));-webkit-transition:opacity 0.15s linear;-moz-transition:opacity 0.15s linear;transition:opacity 0.15s linear}.gf-Lightbox-overlay .gf-Lightbox-container{position:absolute;box-shadow:0 0 7px rgba(0,0,0,0.5);height:500px}.gf-Lightbox-overlay.gf-is-mobile.gf-is-ios{position:absolute}.gf-Lightbox-overlay.gf-is-mobile .gf-Lightbox-container{position:absolute;top:10vh;left:2vw;right:2vw;height:70vh}.gf-Lightbox-overlay.gf-is-open{visibility:visible;z-index:999999999}.gf-Lightbox-overlay.gf-is-shown{opacity:1}.gf-Lightbox-overlay.gf-no-mobile .gf-Lightbox-container{-webkit-transition:opacity 0.25s, margin 0.25s;-moz-transition:opacity 0.25s, margin 0.25s;transition:opacity 0.25s, margin 0.25s;top:40%;left:50%;width:600px;margin-top:-160px}.gf-Lightbox-overlay.gf-no-mobile .gf-Lightbox-container.gf-Lightbox--bottomLeft{margin-left:-320px}.gf-Lightbox-overlay.gf-no-mobile .gf-Lightbox-container.gf-Lightbox--bottomRight{margin-left:-280px}.gf-Lightbox-overlay.gf-no-mobile.gf-is-shown .gf-Lightbox-container{margin-top:-190px;margin-left:-300px;overflow:hidden;border-radius:3px}.gf-Lightbox-iframe{position:static;width:100%;height:500px;border:0}.gf-is-mobile .gf-Lightbox-iframe{height:100%}.gf-Lightbox-header-closeButton{position:absolute;top:0px;right:7px;font-size:20px;font-weight:300;cursor:pointer}.gf-is-mobile .gf-Lightbox-header-closeButton{width:34px;height:34px;padding:7px 7px 14px 17px}body.gf-noscroll{overflow:hidden !important}.gf-Bobblehead-wrapper{position:fixed;z-index:999999999;box-sizing:content-box;box-shadow:0 0px 7px rgba(0,0,0,0.4);overflow:hidden;border-radius:50px;opacity:1;-webkit-transition:width 0.25s, padding 0.25s, opacity 0.25s;-moz-transition:width 0.25s, padding 0.25s, opacity 0.25s;transition:width 0.25s, padding 0.25s, opacity 0.25s;bottom:20px;background:transparent;width:52px;height:52px;pointer-events:none}.gf-Bobblehead-wrapper .gf-Bobblehead{cursor:pointer;pointer-events:all}.gf-Bobblehead-wrapper .gf-Bobblehead .gf-Bobblehead-icon{display:inline-block;box-sizing:content-box;width:24px;height:24px;padding:14px}.gf-Bobblehead-wrapper .gf-Bobblehead .gf-Bobblehead-icon svg{width:24px;height:24px}.gf-Bobblehead-wrapper .gf-Bobblehead .gf-Bobblehead-icon .bobblehead-icon{fill-rule:evenodd}.gf-Bobblehead-wrapper .gf-Bobblehead .gf-Bobblehead-label{float:right;height:52px;line-height:52px;margin:0 30px 0 0;font-size:16px}.gf-Bobblehead-wrapper.gf-is-mobile{width:45px;height:45px}.gf-Bobblehead-wrapper.gf-is-mobile .gf-Bobblehead-icon{width:17px;height:17px}.gf-Bobblehead-wrapper.gf-is-mobile .gf-Bobblehead-icon svg{width:17px;height:17px}.gf-Bobblehead-wrapper.gf-has-label{padding-left:8px}.gf-Bobblehead-wrapper.gf-hide-label{padding-left:0px !important;width:52px !important}.gf-Bobblehead-wrapper.gf-hide-label.gf-is-mobile{width:45px !important}.gf-Bobblehead-wrapper.gf-is-hidden{-webkit-transition:width 0.25s, padding 0.25s, opacity 0.25s, visibility 0s 0.25s;-moz-transition:width 0.25s, padding 0.25s, opacity 0.25s, visibility 0s 0.25s;transition:width 0.25s, padding 0.25s, opacity 0.25s, visibility 0s 0.25s;width:auto;visibility:hidden;opacity:0}.gf-Bobblehead-wrapper.gf-is-hidden .gf-Bobblehead{cursor:auto;pointer-events:none}.gf-Bobblehead-wrapper.gf-is-open{width:52px !important;padding-left:0px !important}.gf-Bobblehead-wrapper.gf-is-open.gf-is-mobile{width:45px !important}.gf-Bobblehead--bottomRight{right:20px}.gf-Bobblehead--bottomLeft{left:20px}
+</style><style type="text/css" id="gf-widget-height">.gf-Widget.gf-is-open { height: 325px; }</style></head>
+<body class="aurora control_panel index">
+  <script>
+    window.addEventListener('cookieconsent_statuschange', function(e) {
+      if(e.detail.status === 'deny') { return; }
+      window.dataLayer = [];
+      window.dataLayer.push({
+        userDropletCount: 14,
+        userOrOrgHasCreatedDroplets: true,
+        recentlySignedUp: false,
+        marketoId: "b4de595e2806bd55c3bf865670815a77ef02d2df"
+      });
+
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-KHWBBT');
+    });
+  </script>
+
+<div id="container">
+<div id="content">
+<div class="contents">
+<div class="cloud-container nav-has-loaded" id="main">
+<div class="row">
+<div class="small-12 columns">
+<header class="u-clearfix">
+
+</header>
+</div>
+</div>
+
+
+
+
+
+
+<div id="aurora-container" class="ember-application"><div id="ember689" class="ember-view">    <div id="ember717" class="aurora-status-notification with-side-nav ember-view"><!----></div>
+  <div class="aurora-container with-side-nav">
+    <div class="aurora-container-left" style="top: 0px;">
+      <div id="ember724" class="side-nav ember-view"><div class="logo-wrapper">
+      <a href="https://cloud.digitalocean.com/projects/default?i=02fe99" id="ember734" class="Logo ember-view">DigitalOcean <!----></a>
+</div>
+
+
+    <div class="side-nav-section groups open-section">
+      <div id="ember743" class="side-nav-groups ember-view"><h5>
+  Projects
+<!----></h5>
+
+  <ul>
+        <li>
+<a href="https://cloud.digitalocean.com/projects/50ca2d86-a4e9-45d0-a9b7-b43d30c0a5c3/resources?i=02fe99" id="ember2042" class="navLink ember-view">                <span class="side-nav-list-icon group-icon-16-small"></span>
+<div id="ember2043" class="ellipsis-text ember-view">                  Nigerco Nigeria
+
+</div> <!----></a>        </li>
+        <li>
+<a href="https://cloud.digitalocean.com/projects/f4fa7057-d2ab-46e4-b6e8-beebe5c80989/resources?i=02fe99" id="ember1895" class="navLink active-group active ember-view">                <span class="side-nav-list-icon group-icon-7-small"></span>
+<div id="ember1896" class="ellipsis-text ember-view">                  ADP
+
+</div> <!----></a>        </li>
+      <li>
+        <a href="https://cloud.digitalocean.com/projects/new?i=02fe99" id="ember1210" class="addGroup ember-view"><span class="groupLink--left Icon Icon--plus"></span>New Project</a>
+      </li>
+  </ul>
+</div>
+    </div>
+
+    <div class="side-nav-section manage">
+<div id="ember778" class="ember-view">        <h5 role="button" data-ember-action="" data-ember-action-781="781">Manage</h5>
+        <ul>
+          <li><a href="https://cloud.digitalocean.com/apps?i=02fe99" id="ember784" class="ember-view">
+            Apps <span id="ember789" class="trailingLabelBox__beta--blue ember-view">NEW
+</span>
+ <!----></a>          </li>
+
+          <li><a href="https://cloud.digitalocean.com/droplets?i=02fe99" id="ember790" class="fleetPathActive ember-view">Droplets <!----></a></li>
+          
+<!---->
+            <li><a href="https://cloud.digitalocean.com/kubernetes/clusters?i=02fe99" id="ember799" class="ember-view">Kubernetes <!----></a></li>
+
+          <li><a href="https://cloud.digitalocean.com/volumes?i=02fe99" id="ember800" class="fleetPathActive ember-view">Volumes <!----></a></li>
+
+              <li><a href="https://cloud.digitalocean.com/databases?i=02fe99" id="ember815" class="fleetPathActive ember-view">Databases <!----></a></li>
+
+          <li><a href="https://cloud.digitalocean.com/spaces?i=02fe99" id="ember828" class="fleetPathActive ember-view">Spaces <!----></a></li>
+
+            <li><a href="https://cloud.digitalocean.com/registry?i=02fe99" id="ember847" class="ember-view">Container Registry <!----></a></li>
+
+          <li><a href="https://cloud.digitalocean.com/images?i=02fe99" id="ember848" class="navLink ember-view">Images <!----></a></li>
+
+          <li><a href="https://cloud.digitalocean.com/networking?i=02fe99" id="ember860" class="fleetPathActive ember-view">Networking <!----></a></li>
+          <li><a href="https://cloud.digitalocean.com/monitors?i=02fe99" id="ember872" class="fleetPathActive ember-view">Monitoring <!----></a></li>
+
+<!---->        </ul>
+
+
+</div>    </div>
+
+<!---->
+  <div class="side-nav-section account open-section">
+      <div class="navSection"></div>
+      <ul>
+            <li>
+                <a href="https://cloud.digitalocean.com/account/team?i=02fe99" id="ember892" class="ember-view">Settings <!----></a>
+            </li>
+            <li><a href="https://cloud.digitalocean.com/account/billing?i=02fe99" id="ember912" class="ember-view">Billing <!----></a></li>
+          <li><a href="https://cloud.digitalocean.com/account/api?i=02fe99" id="ember929" class="fleetPathActive ember-view">API <!----></a></li>
+      </ul>
+  </div>
+
+<!---->
+  <div class="side-nav-footer">
+    <ul>
+      <li role="button"><a target="_blank" rel="noopener" href="https://marketplace.digitalocean.com/"><span class="footer-link-icon marketplace-icon"></span> Marketplace <span class="external-footer-link-icon"></span> </a></li>
+<!---->      <li role="button"><a target="_blank" rel="noopener" href="https://docs.digitalocean.com/products/"><span class="footer-link-icon docs-icon"></span> Product Docs <span class="external-footer-link-icon"></span> </a></li>
+      <li role="button"><a target="_blank" rel="noopener" href="https://docs.digitalocean.com/support/"><span class="footer-link-icon support-icon"></span> Support <span class="external-footer-link-icon"></span> </a></li>
+    </ul>
+  </div>
+</div>
+    </div>
+    <div class="aurora-container-right" style="padding-top: 94px;">
+<!---->        <nav id="ember949" class="nav-bar global-search nav-bar-v2 ember-view" style="top: 0px;"><div class="nav_controls_v2">
+  <div>
+    <div class="columns small-8">
+          <div class="nav-search">
+            <div id="ember974" class="aurora-auto-complete is-required dont-show-selected search-select ember-view"><ul class="results u-clearfix">
+<!---->  <li>
+
+    <div id="ember979" class="searchInput is-search ember-view">  <div id="ember984" class="FloatLabel ember-view">  <input type="text" spellcheck="false" placeholder="Search by resource name or public IP (Ctrl+B)" id="ember989" class="Input--floatLabel FloatLabel-input  ember-text-field ember-view">
+<label class="FloatLabel-label" for="ember1184">Search by resource name or public IP (Ctrl+B)</label>
+  <span class="Icon--search"></span>
+<!----><!----><!---->
+</div>
+<!----></div>
+
+      <div class="list-wrap">
+        <ul aria-hidden="true" class="auto-complete-list">
+                  <li class="auto-complete-header">
+    Droplets
+  </li>
+
+                                <li class="item hover">
+      <div id="ember1556" class="search-resource-item ember-view"><div class="search-resource-icon">
+  <div class="resource-icon no-table-icon no-ring noring droplet small"></div>
+</div>
+<div class="search-resource-name">
+    wmd
+</div>
+
+<!---->
+  <div class="search-resource-region ">
+<!---->
+      sfo3
+  </div>
+  <div class="search-resource-fleet-icon">
+    <div class="group-icon-16-small"></div>
+  </div>
+</div>
+  </li>
+
+                                <li class="item  ">
+      <div id="ember1559" class="search-resource-item ember-view"><div class="search-resource-icon">
+  <div class="resource-icon no-table-icon no-ring noring droplet small"></div>
+</div>
+<div class="search-resource-name">
+    ubuntu-s-1vcpu-1gb-sfo3-01
+</div>
+
+<!---->
+  <div class="search-resource-region ">
+<!---->
+      sfo3
+  </div>
+  <div class="search-resource-fleet-icon">
+    <div class="group-icon-16-small"></div>
+  </div>
+</div>
+  </li>
+
+                                <li class="auto-complete-header">
+    Domains
+  </li>
+
+                                <li class="item  ">
+      <div id="ember1564" class="search-resource-item ember-view"><div class="search-resource-icon">
+  <div class="resource-icon no-table-icon no-ring noring domain small"></div>
+</div>
+<div class="search-resource-name">
+    justdemocracy.ng
+</div>
+
+<!---->
+  <div class="search-resource-region ">
+<!---->
+      
+  </div>
+  <div class="search-resource-fleet-icon">
+    <div class="group-icon-7-small"></div>
+  </div>
+</div>
+  </li>
+
+                                <li class="item  ">
+      <div id="ember1567" class="search-resource-item ember-view"><div class="search-resource-icon">
+  <div class="resource-icon no-table-icon no-ring noring domain small"></div>
+</div>
+<div class="search-resource-name">
+    adp.ng
+</div>
+
+<!---->
+  <div class="search-resource-region ">
+<!---->
+      
+  </div>
+  <div class="search-resource-fleet-icon">
+    <div class="group-icon-7-small"></div>
+  </div>
+</div>
+  </li>
+
+                                <li class="item  ">
+      <div id="ember1570" class="search-resource-item ember-view"><div class="search-resource-icon">
+  <div class="resource-icon no-table-icon no-ring noring domain small"></div>
+</div>
+<div class="search-resource-name">
+    trademetrology.ng
+</div>
+
+<!---->
+  <div class="search-resource-region ">
+<!---->
+      
+  </div>
+  <div class="search-resource-fleet-icon">
+    <div class="group-icon-7-small"></div>
+  </div>
+</div>
+  </li>
+
+                                <li class="item  ">
+      <div id="ember1573" class="search-resource-item ember-view"><div class="search-resource-icon">
+  <div class="resource-icon no-table-icon no-ring noring domain small"></div>
+</div>
+<div class="search-resource-name">
+    www.trademetrology.ng
+</div>
+
+<!---->
+  <div class="search-resource-region ">
+<!---->
+      
+  </div>
+  <div class="search-resource-fleet-icon">
+    <div class="group-icon-16-small"></div>
+  </div>
+</div>
+  </li>
+
+              <!---->        </ul>
+      </div>
+
+  </li>
+</ul>
+</div>
+          </div>
+    </div>
+<!---->      <div class="columns nav-right-wrapper small-4 stackRight">
+        <div id="ember1002" class="aurora-dropdown-menu account-dropdown-menu account-dropdown teams-dropdown ember-view"><div role="button" class="dropdown-title " data-ember-action="" data-ember-action-1003="1003">
+    <div id="ember1008" class="ember-view"><div class="avatarWrapper  ">
+<!---->    <span class="context-avatar ">
+      <span class="avatar-image b-2">
+        <span class="initials">MT</span>
+      </span>
+        <img src="./ADP project - DigitalOcean_files/ffa613f060aa3e19dfa430971bb6da5e" alt="avatar" class="avatar-small">
+          </span>
+</div>
+<!----></div>
+    <span class="Icon--arrowDown"></span>
+</div>
+<div class="menu-dropdown menu-dropdown-teams">
+  <ul class="menu-dropdownItems">
+      <section class="dropdown-first-section no-border">
+          <li tabindex="-1" class="nav-item">
+              <div class="user-avatar">
+                <div class="avatar avatar-overlay"></div>
+                <img src="./ADP project - DigitalOcean_files/ffa613f060aa3e19dfa430971bb6da5e" alt="" class="avatar">
+                <div class="user-role-section">
+                  <span>Action Democratic Party</span>
+                  <span class="user-role">Owner </span>
+                </div>
+              </div>
+          </li>
+          <li tabindex="-1" class="nav-item nav-action-item">
+              <a href="https://cloud.digitalocean.com/account/profile" tabindex="-1" class="action-item" data-ember-action="" data-ember-action-1009="1009">My Account</a>
+                      </li>
+      </section>
+<!---->      <section class="dropdown-last-section no-border">
+          <li tabindex="-1" class="nav-item nav-action-item">
+<a href="https://cloud.digitalocean.com/account/team/new?i=02fe99" id="ember1010" class="action-item ember-view">            <span class="create">Create a Team </span></a>
+          </li>
+        <li tabindex="-1" class="nav-item nav-action-item">
+          <a href="https://cloud.digitalocean.com/logout" class="action-item">
+            Sign Out
+          </a>
+        </li>
+      </section>
+  </ul>
+</div>
+</div>
+<!---->            <div class="account">
+              <strong><p class="account-name">My Team</p></strong>
+                      <p class="credit-balance">Credit balance: $103.64</p>
+            </div>
+          <span class="top-nav-partition"></span>
+            <span tabindex="-1" class="notifications">
+<a title="Notifications" href="https://cloud.digitalocean.com/notifications?i=02fe99" id="ember1021" class="nav-icon notifications-icon ember-view"><!----></a>            </span>
+          <a alt="Support" title="Support" href="https://docs.digitalocean.com/support/" target="_blank" rel="noopener noreferrer" tabindex="-1" class="nav-icon support-icon"></a>
+          <div id="ember1034" class="aurora-dropdown-menu multi-create-dropdown ember-view"><div role="button" class="dropdown-title " data-ember-action="" data-ember-action-1035="1035">
+  <span class="create-button Button Button--green u-mr-3">
+    Create
+      <span class="Icon--arrowDown"></span>
+  </span>
+</div>
+<div class="menu-dropdown">
+  <ul class="menu-dropdownItems">
+    <li class="nav-li full-margin-top">
+      <div class="create-item">
+          <span class="droplet-icon create-icon"></span>
+<a href="https://cloud.digitalocean.com/droplets/new?fleetUuid=f4fa7057-d2ab-46e4-b6e8-beebe5c80989&amp;i=02fe99" id="ember1038" class="action-item ember-view">            <p>Droplets</p>
+            <p class="small-dark">Create cloud servers</p>
+ <!----></a>      </div>
+    </li>
+      <li class="nav-li">
+        <div class="create-item">
+          <span class="container-icon create-icon"></span>
+<a href="https://cloud.digitalocean.com/kubernetes/clusters/new?i=02fe99" id="ember1069" class="action-item ember-view">              <span>
+                <p>Kubernetes</p>
+                <p class="small-dark">Create Kubernetes clusters</p>
+              </span>
+ <!----></a>        </div>
+      </li>
+    <li class="nav-li full-padding-bottom">
+      <div class="create-item">
+        <span class="app-platform-icon create-icon"></span>
+<a href="https://cloud.digitalocean.com/apps/new?i=02fe99" id="ember1070" class="action-item ember-view">          <div class="u-flex">
+            <span>
+              <p>Apps</p>
+              <p class="small-dark">Deploy your code</p>
+            </span>
+            <span class="pill-wrapper">
+              <span id="ember1071" class="trailingLabelBox__beta--blue ember-view">NEW
+</span>
+            </span>
+          </div>
+ <!----></a>      </div>
+    </li>
+
+<!---->
+      <li class="nav-li section-nav-li">
+        <div class="create-item">
+          <span class="db-icon create-icon"></span>
+<a href="https://cloud.digitalocean.com/databases/new?i=02fe99" id="ember1072" class="action-item ember-view">              <p>Databases</p>
+              <p class="small-dark">Create database clusters</p>
+ <!----></a>        </div>
+      </li>
+    <li class="nav-li">
+      <div class="create-item">
+        <span class="volume-icon create-icon"></span>
+<a href="https://cloud.digitalocean.com/volumes?addVolume=true&amp;i=02fe99&amp;preserveScrollPosition=true" id="ember1085" class="action-item ember-view">          <p>Volumes</p>
+          <p class="small-dark">Add storage to Droplets</p>
+ <!----></a>      </div>
+    </li>
+      <li class="nav-li full-padding-bottom">
+        <div class="create-item">
+          <span class="space-icon create-icon"></span>
+<a href="https://cloud.digitalocean.com/spaces/new?fleetUuid=f4fa7057-d2ab-46e4-b6e8-beebe5c80989&amp;i=02fe99" id="ember1086" class="action-item ember-view">            <p>Spaces</p>
+            <p class="small-dark">Store and serve static assets</p>
+ <!----></a>        </div>
+      </li>
+    <li class="nav-li section-nav-li">
+      <div class="create-item">
+        <span class="domain-icon create-icon full-margin-bottom"></span>
+<a href="https://cloud.digitalocean.com/networking/domains?fleetUuid=f4fa7057-d2ab-46e4-b6e8-beebe5c80989&amp;i=02fe99" id="ember1103" class="action-item ember-view">          <p>Domains/DNS</p>
+          <p class="small-dark">Route your existing domains</p>
+ <!----></a>      </div>
+    </li>
+    <li class="nav-li">
+      <div class="create-item">
+        <span class="firewall-icon create-icon"></span>
+<a href="https://cloud.digitalocean.com/networking/firewalls/new?i=02fe99" id="ember1112" class="action-item ember-view">          <p>Cloud Firewalls</p>
+          <p class="small-dark">Increase Droplet security</p>
+ <!----></a>      </div>
+    </li>
+    <li class="nav-li">
+      <div class="create-item">
+        <span class="ip-icon create-icon"></span>
+<a href="https://cloud.digitalocean.com/networking/floating_ips?fleetUuid=f4fa7057-d2ab-46e4-b6e8-beebe5c80989&amp;i=02fe99" id="ember1125" class="action-item ember-view">          <p>Floating IPs</p>
+          <p class="small-dark">Reserve IP addresses for Droplets</p>
+ <!----></a>      </div>
+    </li>
+    <li class="nav-li full-margin-bottom">
+      <div class="create-item">
+      <span class="load-balancer-icon create-icon"></span>
+<a href="https://cloud.digitalocean.com/networking/load_balancers/new?fleetUuid=f4fa7057-d2ab-46e4-b6e8-beebe5c80989&amp;i=02fe99" id="ember1137" class="action-item ember-view">        <p>Load Balancers</p>
+        <p class="small-dark">Distribute traffic to Droplets</p>
+ <!----></a>      </div>
+    </li>
+<!---->    <li class="nav-li full-margin-bottom">
+      <div class="create-item">
+        <span class="alert-icon create-icon"></span>
+<a href="https://cloud.digitalocean.com/monitors/resource-alerts/new?i=02fe99" id="ember1148" class="action-item ember-view">          <p>Resource Alerts</p>
+          <p class="small-dark">Monitor your Droplets</p>
+ <!----></a>      </div>
+    </li>
+  </ul>
+</div>
+</div>
+      </div>
+  </div>
+
+</div>
+</nav>
+
+        <div class="aurora-alerts">
+<!----></div>
+
+      <div class="global-search-overlay"></div>
+      <div class="aurora-body ">
+<!---->
+        <div class="fleet">
+    <div class="row u-mb-4">
+      <div class="columns small-12">
+        <div id="ember1437" class="ember-view"><div class="teamsv3-announcement-banner-content">
+  <div class="announcement-image"></div>
+  <div class="announcement-content">
+    <h3>It's now easier to collaborate</h3>
+    <p>Teams features are now available for this account so it's easier to invite others to work with you. You can invite new members at any time from Settings or continue working by yourself.</p>
+    <div class="announcement-btn-group">
+      <a href="https://cloud.digitalocean.com/account/team/invite?i=02fe99" id="ember1438" class="Button Button--blue u-mr-2 ember-view">Invite Members <!----></a>
+      <a href="https://cloud.digitalocean.com/account/team/edit?i=02fe99" id="ember1447" class="Button -secondary ember-view">Edit Team Name <!----></a>
+    </div>
+  </div>
+  <div role="button" class="announcement-close" data-ember-action="" data-ember-action-1456="1456">
+    <span class="Icon--close"></span>
+  </div>
+</div></div>
+      </div>
+    </div>
+<!---->  <div class="row">
+<!---->
+    <div class="fleet-header-wrapper small-12 columns">
+      <div class="fleet-header">
+        <div class="Resource Resource--rightContext">
+          <div class="fleet-edit--group-icon-select">
+            <div id="ember1459" class="group-icon-select-container ember-view"><div role="button" class="group-icon-select group-icon-7-large isEditable" data-ember-action="" data-ember-action-1460="1460">
+    <div class="icon-select-overlay"></div>
+</div>
+<!---->
+</div>
+          </div>
+          <div class="Resource-meta">
+            <div role="button" class="Resource-title">
+              ADP
+
+<!---->            </div>
+
+            <div class="Resource-description">
+              <span class="copy">
+                Web Application / ADP MEMBERSHIP
+              </span>
+            </div>
+          </div>
+        </div>
+
+          <div class="fleet-add-resource">
+<div id="ember1461" class="ember-view"><a href="https://cloud.digitalocean.com/projects/f4fa7057-d2ab-46e4-b6e8-beebe5c80989/resources/add?i=02fe99" id="ember1462" class="Button Button--withIcon Icon--arrowLongRight  ember-view"><!---->                Move Resources
+</a>
+
+
+</div>          </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="small-12 columns u-mt-4 u-mb-2">
+      <ul role="tablist" class="Tabs droplet-tabs u-clearfix">
+        <li id="ember1477" class="is-active ember-view"><a>Resources</a></li>
+        <li id="ember1478" class="ember-view"><a>Activity</a></li>
+
+<!---->
+          <li id="ember1479" class="ember-view"><a>Settings</a></li>
+      </ul>
+
+      <!---->
+  <div id="ember1907" class="ember-view"><!----></div>
+
+<div class="row">
+  <div class="columns small-12">
+        <div class="fleet-resource-section">
+          <h4>
+              domains
+                        (3)
+          </h4>
+              <ul class="resource-list-no-table">
+    <div class="fleet-resource-list-item-wrapper">
+      <li class="fleet-domain-list-item fleet-resource-list-item">
+          <div class="resource-list-title-wrap justify-column no-icon">
+            <div class="dashboardResource-title">
+<a href="https://cloud.digitalocean.com/networking/domains/justdemocracy.ng?i=02fe99" id="ember1910" class="ember-view"><div id="ember1911" class="ellipsis-text ember-view">                    justdemocracy.ng
+
+</div></a>            </div>
+          </div>
+          <div class="url resource-list-location-wrap justify-column">
+            <div class="record-string justify-column">
+<a href="https://cloud.digitalocean.com/networking/domains/justdemocracy.ng?i=02fe99" id="ember1912" class="no-link-color ember-view">                1 a / 3 nS / 1 sOA
+</a>            </div>
+          </div>
+            <div class="action resource-list-action-wrap">
+              <div id="ember1913" class="aurora-dropdown-menu u-floatRight ellipsis ember-view"><span role="button" class="dropdown-title  " data-ember-action="" data-ember-action-1914="1914"><!---->
+<!----></span>
+
+
+<div class="menu-dropdown" style="">
+  <div class="menu-dropdownView">
+    <div role="button" class="menu-dropdownBacktoMenu Icon--arrowLongLeft hideMenuButton" data-ember-action="" data-ember-action-1915="1915"></div>
+    <ul class="menu-dropdownItems    ">
+        <li role="button" class=" dropdown-menu-item-button " data-ember-action="" data-ember-action-1917="1917">
+<!---->          Manage domain
+        </li>
+              <li role="button" class=" dropdown-menu-item-button " data-ember-action="" data-ember-action-1919="1919">
+<!---->          Download zone
+        </li>
+              <li role="button" class=" dropdown-menu-item-button " data-ember-action="" data-ember-action-1921="1921">
+<!---->          Move to...
+        </li>
+              <li role="button" class=" dropdown-menu-item-button " data-ember-action="" data-ember-action-1923="1923">
+<!---->          Delete
+        </li>
+      </ul>
+
+
+    <div id="ember1924" class="ember-view"><div class="dropdown-view dropdown-view--move-to dropdown-view--add-to-project u-textAlignLeft">
+  <p class="dropdown__headline u-mb-0">Select project</p>
+
+  <div class="fleet-select">
+    <div class="list-wrap">
+      <ul>
+            <li tabindex="-1" class="item " data-ember-action="" data-ember-action-1925="1925">
+              <div title="Nigerco Nigeria" class="Resource group-resource Resource--rightContext">
+                <div class="fleet group-icon group-icon-16-30"></div>
+                <div class="Resource-meta">
+                  <div class="Resource-title u-textAlignLeft">
+                    Nigerco Nigeria
+                  </div>
+                  <div class="Resource-description u-textAlignLeft">
+                    Web Application / Production / Update your project information under Settings
+                  </div>
+                </div>
+              </div>
+            </li>
+<!----><div id="ember1926" class="infinity-loader reached-infinity ember-view">            <!----><div class="Loader--basic Loader--blue  u-va-m   "></div>
+
+
+</div>      </ul>
+    </div>
+  </div>
+  <div>
+    <div class="columns buttons-col u-pr-3 u-pl-3">
+      <div>
+        <button disabled="" class="Button Button--fullWidth Button--blue u-mb-0 u-mt-3" data-ember-action="" data-ember-action-1928="1928">
+          Move to
+            …
+<!---->        </button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+    <div class="dropdown-view dropdown-view--delete">
+      <p class="dropdown__headline">Confirm delete domain</p>
+      <p class="small-dark">This action is irreversible. To confirm deletion, click the button below.</p>
+      <button tabindex="-1" class="Button Button--fullWidth Button--red" data-ember-action="" data-ember-action-1937="1937">
+        Delete Domain
+<!---->      </button>
+    </div>
+  </div>
+</div>
+</div>
+            </div>
+      </li>
+    </div>
+    <div class="fleet-resource-list-item-wrapper">
+      <li class="fleet-domain-list-item fleet-resource-list-item">
+          <div class="resource-list-title-wrap justify-column no-icon">
+            <div class="dashboardResource-title">
+<a href="https://cloud.digitalocean.com/networking/domains/adp.ng?i=02fe99" id="ember1943" class="ember-view"><div id="ember1944" class="ellipsis-text ember-view">                    adp.ng
+
+</div></a>            </div>
+          </div>
+          <div class="url resource-list-location-wrap justify-column">
+            <div class="record-string justify-column">
+<a href="https://cloud.digitalocean.com/networking/domains/adp.ng?i=02fe99" id="ember1945" class="no-link-color ember-view">                1 a / 3 nS / 1 sOA
+</a>            </div>
+          </div>
+            <div class="action resource-list-action-wrap">
+              <div id="ember1946" class="aurora-dropdown-menu u-floatRight ellipsis ember-view"><span role="button" class="dropdown-title  " data-ember-action="" data-ember-action-1947="1947"><!---->
+<!----></span>
+
+
+<div class="menu-dropdown" style="">
+  <div class="menu-dropdownView">
+    <div role="button" class="menu-dropdownBacktoMenu Icon--arrowLongLeft hideMenuButton" data-ember-action="" data-ember-action-1948="1948"></div>
+    <ul class="menu-dropdownItems    ">
+        <li role="button" class=" dropdown-menu-item-button " data-ember-action="" data-ember-action-1950="1950">
+<!---->          Manage domain
+        </li>
+              <li role="button" class=" dropdown-menu-item-button " data-ember-action="" data-ember-action-1952="1952">
+<!---->          Download zone
+        </li>
+              <li role="button" class=" dropdown-menu-item-button " data-ember-action="" data-ember-action-1954="1954">
+<!---->          Move to...
+        </li>
+              <li role="button" class=" dropdown-menu-item-button " data-ember-action="" data-ember-action-1956="1956">
+<!---->          Delete
+        </li>
+      </ul>
+
+
+    <div id="ember1957" class="ember-view"><div class="dropdown-view dropdown-view--move-to dropdown-view--add-to-project u-textAlignLeft">
+  <p class="dropdown__headline u-mb-0">Select project</p>
+
+  <div class="fleet-select">
+    <div class="list-wrap">
+      <ul>
+            <li tabindex="-1" class="item " data-ember-action="" data-ember-action-1958="1958">
+              <div title="Nigerco Nigeria" class="Resource group-resource Resource--rightContext">
+                <div class="fleet group-icon group-icon-16-30"></div>
+                <div class="Resource-meta">
+                  <div class="Resource-title u-textAlignLeft">
+                    Nigerco Nigeria
+                  </div>
+                  <div class="Resource-description u-textAlignLeft">
+                    Web Application / Production / Update your project information under Settings
+                  </div>
+                </div>
+              </div>
+            </li>
+<!----><div id="ember1959" class="infinity-loader reached-infinity ember-view">            <!----><div class="Loader--basic Loader--blue  u-va-m   "></div>
+
+
+</div>      </ul>
+    </div>
+  </div>
+  <div>
+    <div class="columns buttons-col u-pr-3 u-pl-3">
+      <div>
+        <button disabled="" class="Button Button--fullWidth Button--blue u-mb-0 u-mt-3" data-ember-action="" data-ember-action-1961="1961">
+          Move to
+            …
+<!---->        </button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+    <div class="dropdown-view dropdown-view--delete">
+      <p class="dropdown__headline">Confirm delete domain</p>
+      <p class="small-dark">This action is irreversible. To confirm deletion, click the button below.</p>
+      <button tabindex="-1" class="Button Button--fullWidth Button--red" data-ember-action="" data-ember-action-1970="1970">
+        Delete Domain
+<!---->      </button>
+    </div>
+  </div>
+</div>
+</div>
+            </div>
+      </li>
+    </div>
+    <div class="fleet-resource-list-item-wrapper">
+      <li class="fleet-domain-list-item fleet-resource-list-item">
+          <div class="resource-list-title-wrap justify-column no-icon">
+            <div class="dashboardResource-title">
+<a href="https://cloud.digitalocean.com/networking/domains/trademetrology.ng?i=02fe99" id="ember1976" class="ember-view"><div id="ember1977" class="ellipsis-text ember-view">                    trademetrology.ng
+
+</div></a>            </div>
+          </div>
+          <div class="url resource-list-location-wrap justify-column">
+            <div class="record-string justify-column">
+<a href="https://cloud.digitalocean.com/networking/domains/trademetrology.ng?i=02fe99" id="ember1978" class="no-link-color ember-view">                1 a / 3 nS / 1 sOA
+</a>            </div>
+          </div>
+            <div class="action resource-list-action-wrap">
+              <div id="ember1979" class="aurora-dropdown-menu u-floatRight ellipsis ember-view"><span role="button" class="dropdown-title  " data-ember-action="" data-ember-action-1980="1980"><!---->
+<!----></span>
+
+
+<div class="menu-dropdown" style="">
+  <div class="menu-dropdownView">
+    <div role="button" class="menu-dropdownBacktoMenu Icon--arrowLongLeft hideMenuButton" data-ember-action="" data-ember-action-1981="1981"></div>
+    <ul class="menu-dropdownItems    ">
+        <li role="button" class=" dropdown-menu-item-button " data-ember-action="" data-ember-action-1983="1983">
+<!---->          Manage domain
+        </li>
+              <li role="button" class=" dropdown-menu-item-button " data-ember-action="" data-ember-action-1985="1985">
+<!---->          Download zone
+        </li>
+              <li role="button" class=" dropdown-menu-item-button " data-ember-action="" data-ember-action-1987="1987">
+<!---->          Move to...
+        </li>
+              <li role="button" class=" dropdown-menu-item-button " data-ember-action="" data-ember-action-1989="1989">
+<!---->          Delete
+        </li>
+      </ul>
+
+
+    <div id="ember1990" class="ember-view"><div class="dropdown-view dropdown-view--move-to dropdown-view--add-to-project u-textAlignLeft">
+  <p class="dropdown__headline u-mb-0">Select project</p>
+
+  <div class="fleet-select">
+    <div class="list-wrap">
+      <ul>
+            <li tabindex="-1" class="item " data-ember-action="" data-ember-action-1991="1991">
+              <div title="Nigerco Nigeria" class="Resource group-resource Resource--rightContext">
+                <div class="fleet group-icon group-icon-16-30"></div>
+                <div class="Resource-meta">
+                  <div class="Resource-title u-textAlignLeft">
+                    Nigerco Nigeria
+                  </div>
+                  <div class="Resource-description u-textAlignLeft">
+                    Web Application / Production / Update your project information under Settings
+                  </div>
+                </div>
+              </div>
+            </li>
+<!----><div id="ember1992" class="infinity-loader reached-infinity ember-view">            <!----><div class="Loader--basic Loader--blue  u-va-m   "></div>
+
+
+</div>      </ul>
+    </div>
+  </div>
+  <div>
+    <div class="columns buttons-col u-pr-3 u-pl-3">
+      <div>
+        <button disabled="" class="Button Button--fullWidth Button--blue u-mb-0 u-mt-3" data-ember-action="" data-ember-action-1994="1994">
+          Move to
+            …
+<!---->        </button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+    <div class="dropdown-view dropdown-view--delete">
+      <p class="dropdown__headline">Confirm delete domain</p>
+      <p class="small-dark">This action is irreversible. To confirm deletion, click the button below.</p>
+      <button tabindex="-1" class="Button Button--fullWidth Button--red" data-ember-action="" data-ember-action-2003="2003">
+        Delete Domain
+<!---->      </button>
+    </div>
+  </div>
+</div>
+</div>
+            </div>
+      </li>
+    </div>
+</ul>
+
+<!---->
+        </div>
+<!----><!----><!----><!----><!----><!---->  </div>
+
+  <div class="columns small-8">
+    <div id="ember2014" class="suggestedResources-container ember-view"><div class="dashboard-suggestions-container">
+  <div class="dashboard-suggestions-header">
+      <h4> Create something new </h4>
+  </div>
+    <div class="flex-card-group">
+        <div class="flex-card resource-droplet">
+          <div role="button" class="flex-card-image" data-ember-action="" data-ember-action-2016="2016">
+            <div class="card-img droplet-img"></div>
+          </div>
+          <div class="flex-card-body">
+            <a role="button" class="link-copy" data-ember-action="" data-ember-action-2017="2017">Create a Droplet</a>
+            <p>Add a cloud server now</p>
+          </div>
+        </div>
+        <div class="flex-card resource-database">
+          <div role="button" class="flex-card-image" data-ember-action="" data-ember-action-2019="2019">
+            <div class="card-img database-img"></div>
+          </div>
+          <div class="flex-card-body">
+            <a role="button" class="link-copy" data-ember-action="" data-ember-action-2020="2020">Create a Managed Database</a>
+            <p>Worry-free database management</p>
+          </div>
+        </div>
+        <div class="flex-card resource-bucket">
+          <div role="button" class="flex-card-image" data-ember-action="" data-ember-action-2022="2022">
+            <div class="card-img bucket-img"></div>
+          </div>
+          <div class="flex-card-body">
+            <a role="button" class="link-copy" data-ember-action="" data-ember-action-2023="2023">Start using Spaces</a>
+            <p>Deliver data with scalable object storage</p>
+          </div>
+        </div>
+        <div class="flex-card resource-loadBalancer">
+          <div role="button" class="flex-card-image" data-ember-action="" data-ember-action-2025="2025">
+            <div class="card-img loadBalancer-img"></div>
+          </div>
+          <div class="flex-card-body">
+            <a role="button" class="link-copy" data-ember-action="" data-ember-action-2026="2026">Spin up a Load Balancer</a>
+            <p>Distribute traffic between multiple Droplets</p>
+          </div>
+        </div>
+    </div>
+    <h4>Build on what you have</h4>
+    <div class="flex-card-group">
+        <div class="flex-card resource-volume">
+          <div role="button" class="flex-card-image" data-ember-action="" data-ember-action-2028="2028">
+            <div class="card-img volume-img"></div>
+          </div>
+          <div class="flex-card-body">
+            <a role="button" class="link-copy" data-ember-action="" data-ember-action-2029="2029">Add a disk to your Droplet</a>
+            <p>Create a block storage volume</p>
+          </div>
+        </div>
+        <div class="flex-card resource-snapshot">
+          <div role="button" class="flex-card-image" data-ember-action="" data-ember-action-2031="2031">
+            <div class="card-img snapshot-img"></div>
+          </div>
+          <div class="flex-card-body">
+            <a role="button" class="link-copy" data-ember-action="" data-ember-action-2032="2032">Take a snapshot</a>
+            <p>Make on-demand copies of Droplets</p>
+          </div>
+        </div>
+        <div class="flex-card resource-firewall">
+          <div role="button" class="flex-card-image" data-ember-action="" data-ember-action-2034="2034">
+            <div class="card-img firewall-img"></div>
+          </div>
+          <div class="flex-card-body">
+            <a role="button" class="link-copy" data-ember-action="" data-ember-action-2035="2035">Secure your Droplets</a>
+            <p>Create a cloud firewall</p>
+          </div>
+        </div>
+        <div class="flex-card resource-floatingIp">
+          <div role="button" class="flex-card-image" data-ember-action="" data-ember-action-2037="2037">
+            <div class="card-img floatingIp-img"></div>
+          </div>
+          <div class="flex-card-body">
+            <a role="button" class="link-copy" data-ember-action="" data-ember-action-2038="2038">Start using Floating IPs</a>
+            <p>Redirect Droplet traffic quickly</p>
+          </div>
+        </div>
+        <div class="flex-card resource-monitor">
+          <div role="button" class="flex-card-image" data-ember-action="" data-ember-action-2040="2040">
+            <div class="card-img monitor-img"></div>
+          </div>
+          <div class="flex-card-body">
+            <a role="button" class="link-copy" data-ember-action="" data-ember-action-2041="2041">Track more Droplet metrics</a>
+            <p>Enable the DigitalOcean agent</p>
+          </div>
+        </div>
+    </div>
+</div>
+</div>
+  </div>
+    <div class="columns small-4">
+      <div class="fleet--learn-more dashboard-suggestions-container">
+        <h4>Learn more</h4>
+
+          <div class="fleet--learn-more-link">
+            <a href="https://docs.digitalocean.com/products" target="_blank" rel="noopener noreferrer">
+              Product Docs
+            </a>
+            <p>Technical overviews, how-tos, release notes, and support material</p>
+          </div>
+
+          <div class="fleet--learn-more-link">
+            <a href="https://www.digitalocean.com/community/tutorials" target="_blank" rel="noopener noreferrer">
+              Tutorials
+            </a>
+            <p>DevOps and development guidelines</p>
+          </div>
+
+          <div class="fleet--learn-more-link">
+            <a href="https://docs.digitalocean.com/reference" target="_blank" rel="noopener noreferrer">
+              API &amp; CLI Docs
+            </a>
+            <p>Run your resources programmatically</p>
+          </div>
+
+          <div class="fleet--learn-more-link">
+            <a href="https://www.digitalocean.com/community/questions" target="_blank" rel="noopener noreferrer">
+              Ask a question
+            </a>
+            <p>Connect, share and learn</p>
+          </div>
+      </div>
+    </div>
+</div>
+
+<!---->
+<!---->
+<!---->
+    </div>
+  </div>
+
+  <div id="ember1486" class="ember-view"></div>
+
+</div>
+
+      </div>
+          <div id="ember1171" class="Footer ember-view"><a href="https://blog.digitalocean.com/" target="_blank" rel="noopener noreferrer">Blog</a>
+<a href="https://www.digitalocean.com/pricing" target="_blank" rel="noopener noreferrer">Pricing</a>
+<a href="https://www.digitalocean.com/company/careers" target="_blank" rel="noopener noreferrer">Careers</a>
+<a href="https://www.digitalocean.com/legal/terms" target="_blank" rel="noopener noreferrer">Terms</a>
+<a href="https://www.digitalocean.com/legal/privacy" target="_blank" rel="noopener noreferrer">Privacy</a>
+<a href="https://status.digitalocean.com/" target="_blank" rel="noopener noreferrer">Status</a>
+<a href="https://docs.digitalocean.com/" target="_blank" rel="noopener noreferrer">Docs</a>
+<a href="https://www.digitalocean.com/community" target="_blank" rel="noopener noreferrer">Tutorials</a>
+<a id="ember1176" class="ember-view" target="_blank" href="https://cloudsupport.digitalocean.com/" rel="noopener noreferrer">Support</a>
+<!----></div>
+<!----> <ul id="ember1179" class="aurora-notifications ember-view"><!----></ul>
+<!---->
+    </div>
+  </div>
+  <div id="coach-marks-container"><div id="ember890" class="ember-view"><div style="background-color: rgb(95, 99, 244); width: 320px; display: none;" class="coach-mark-content right-top   is-fixed">
+  <div class="wedge"></div>
+            <h3>Navigation has moved</h3>
+          <p>
+            You can still access lists of resources from all your projects and your account settings here.
+          </p>
+          <button class="Button dismiss" data-ember-action="" data-ember-action-891="891">Got it</button>
+
+</div>
+</div><div id="ember1475" class="ember-view"><div style="background-color: #04AfC0; width: 320px;" class="coach-mark-content down-right   ">
+  <div class="wedge"></div>
+                  <h3>Moving resources</h3>
+                <p>
+                  You can move resources in bulk using this button, or use the
+                  <span class="icon-ellipsis">...</span> menu to move an individual resource.
+                </p>
+                <button class="Button dismiss" data-ember-action="" data-ember-action-1476="1476">
+                  Got it
+                </button>
+
+</div>
+</div></div>
+
+<!----><div id="ember-wormhole-destination"></div></div></div>
+
+
+
+<script src="./ADP project - DigitalOcean_files/vendor-18cf4d3b829ed20812f461f03ff6d4fb.js.download"></script>
+<script src="./ADP project - DigitalOcean_files/aurora-d5b53ff101557015f165db85bbe32267.js.download"></script>
+
+<div id="ember-basic-dropdown-wormhole"></div>
+<script type="text/javascript">!function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="3.1.0"}}();</script>
+
+<script>
+  $.noConflict(true);
+</script>
+
+
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+<script type="text/javascript" src="./ADP project - DigitalOcean_files/onfido.min.js.download"></script><script type="text/javascript" src="./ADP project - DigitalOcean_files/prism.js.download"></script><script type="text/javascript" src="./ADP project - DigitalOcean_files/dropinui.js.download"></script><script type="text/javascript" id="">function getCookie(d){d+="\x3d";var b=decodeURIComponent(document.cookie);b=b.split(";");for(var c=0;c<b.length;c++){for(var a=b[c];" "==a.charAt(0);)a=a.substring(1);if(0==a.indexOf(d))return a.substring(d.length,a.length)}return""}function setCookie(d,b,c){var a=new Date;a.setTime(a.getTime()+6E4*c);document.cookie=d+"\x3d"+escape(b)+(null==c?"":";expires\x3d"+a.toGMTString())}
+if(""==getCookie("sessionID")){var randomNumberString=Math.floor(1E7*Math.random()+1).toString();setCookie("sessionID",randomNumberString,30)}else{var sessionID=getCookie("sessionID");setCookie("sessionID",sessionID,30)};</script><script type="text/javascript" id="">google_tag_manager["GTM-KHWBBT"].macro(43)&&65>parseInt(google_tag_manager["GTM-KHWBBT"].macro(44).substr(4,2),16)&&(window._fs_debug=!1,window._fs_host="fullstory.com",window._fs_script="edge.fullstory.com/s/fs.js",window._fs_org="1XYq",window._fs_namespace="FS",function(e,k,l,m,h,f,a,d){l in e?e.console&&e.console.log&&e.console.log('FullStory namespace conflict. Please set     window["_fs_namespace"].'):(a=e[l]=function(c,b,g){a.q?a.q.push([c,b,g]):a._api(c,b,g)},a.q=[],f=k.createElement(m),f.async=1,f.crossOrigin="anonymous",f.src="https://"+
+_fs_script,d=k.getElementsByTagName(m)[0],d.parentNode.insertBefore(f,d),a.identify=function(c,b,g){a(h,{uid:c},g);b&&a(h,b,g)},a.setUserVars=function(c,b){a(h,c,b)},a.event=function(c,b,g){a("event",{n:c,p:b},g)},a.anonymize=function(){a.identify(!1)},a.shutdown=function(){a("rec",!1)},a.restart=function(){a("rec",!0)},a.log=function(c,b){a("log",[c,b])},a.consent=function(c){a("consent",!arguments.length||c)},a.identifyAccount=function(c,b){f="account";b=b||{};b.acctId=c;a(f,b)},a.clearUserCookie=
+function(){},a.setVars=function(c,b){a("setVars",[c,b])},a._w={},d="XMLHttpRequest",a._w[d]=e[d],d="fetch",a._w[d]=e[d],e[d]&&(e[d]=function(){return a._w[d].apply(this,arguments)}),a._v="1.3.0")}(window,document,window._fs_namespace,"script","user"));</script><script type="text/javascript" id="">window.FS&&"function"===typeof FS.identify&&window.currentUser&&(FS.identify(google_tag_manager["GTM-KHWBBT"].macro(45),{teamsv3User:google_tag_manager["GTM-KHWBBT"].macro(46)}),window._fs_ready=function(){var a=FS.getCurrentSessionURL();window.pendo&&"function"===typeof pendo.identify&&pendo.identify({visitor:{id:window.analytics&&window.analytics.user().id()||"",anonymous_id:window.analytics&&window.analytics.user().anonymousId()||"",mostRecentFullStorySession:a}})});</script><iframe name="__privateStripeMetricsController5070" frameborder="0" allowtransparency="true" scrolling="no" allow="payment *" src="./ADP project - DigitalOcean_files/m-outer-9fe86c29346daf61dc2cc0586b4fad18.html" aria-hidden="true" tabindex="-1" style="border: none !important; margin: 0px !important; padding: 0px !important; width: 1px !important; min-width: 100% !important; overflow: hidden !important; display: block !important; visibility: hidden !important; position: fixed !important; height: 1px !important; pointer-events: none !important; user-select: none !important;"></iframe><script type="text/javascript" id="">google_tag_manager["GTM-KHWBBT"].macro(238)&&65>parseInt(google_tag_manager["GTM-KHWBBT"].macro(239).substr(4,2),16)&&(window._fs_debug=!1,window._fs_host="fullstory.com",window._fs_script="edge.fullstory.com/s/fs.js",window._fs_org="1XYq",window._fs_namespace="FS",function(e,k,l,m,h,f,a,d){l in e?e.console&&e.console.log&&e.console.log('FullStory namespace conflict. Please set     window["_fs_namespace"].'):(a=e[l]=function(c,b,g){a.q?a.q.push([c,b,g]):a._api(c,b,g)},a.q=[],f=k.createElement(m),f.async=1,f.crossOrigin="anonymous",f.src="https://"+
+_fs_script,d=k.getElementsByTagName(m)[0],d.parentNode.insertBefore(f,d),a.identify=function(c,b,g){a(h,{uid:c},g);b&&a(h,b,g)},a.setUserVars=function(c,b){a(h,c,b)},a.event=function(c,b,g){a("event",{n:c,p:b},g)},a.anonymize=function(){a.identify(!1)},a.shutdown=function(){a("rec",!1)},a.restart=function(){a("rec",!0)},a.log=function(c,b){a("log",[c,b])},a.consent=function(c){a("consent",!arguments.length||c)},a.identifyAccount=function(c,b){f="account";b=b||{};b.acctId=c;a(f,b)},a.clearUserCookie=
+function(){},a.setVars=function(c,b){a("setVars",[c,b])},a._w={},d="XMLHttpRequest",a._w[d]=e[d],d="fetch",a._w[d]=e[d],e[d]&&(e[d]=function(){return a._w[d].apply(this,arguments)}),a._v="1.3.0")}(window,document,window._fs_namespace,"script","user"));</script><script type="text/javascript" id="">window.FS&&"function"===typeof FS.identify&&window.currentUser&&(FS.identify(google_tag_manager["GTM-KHWBBT"].macro(240),{teamsv3User:google_tag_manager["GTM-KHWBBT"].macro(241)}),window._fs_ready=function(){var a=FS.getCurrentSessionURL();window.pendo&&"function"===typeof pendo.identify&&pendo.identify({visitor:{id:window.analytics&&window.analytics.user().id()||"",anonymous_id:window.analytics&&window.analytics.user().anonymousId()||"",mostRecentFullStorySession:a}})});</script><script type="text/javascript" id="">google_tag_manager["GTM-KHWBBT"].macro(396)&&65>parseInt(google_tag_manager["GTM-KHWBBT"].macro(397).substr(4,2),16)&&(window._fs_debug=!1,window._fs_host="fullstory.com",window._fs_script="edge.fullstory.com/s/fs.js",window._fs_org="1XYq",window._fs_namespace="FS",function(e,k,l,m,h,f,a,d){l in e?e.console&&e.console.log&&e.console.log('FullStory namespace conflict. Please set     window["_fs_namespace"].'):(a=e[l]=function(c,b,g){a.q?a.q.push([c,b,g]):a._api(c,b,g)},a.q=[],f=k.createElement(m),f.async=1,f.crossOrigin="anonymous",f.src="https://"+
+_fs_script,d=k.getElementsByTagName(m)[0],d.parentNode.insertBefore(f,d),a.identify=function(c,b,g){a(h,{uid:c},g);b&&a(h,b,g)},a.setUserVars=function(c,b){a(h,c,b)},a.event=function(c,b,g){a("event",{n:c,p:b},g)},a.anonymize=function(){a.identify(!1)},a.shutdown=function(){a("rec",!1)},a.restart=function(){a("rec",!0)},a.log=function(c,b){a("log",[c,b])},a.consent=function(c){a("consent",!arguments.length||c)},a.identifyAccount=function(c,b){f="account";b=b||{};b.acctId=c;a(f,b)},a.clearUserCookie=
+function(){},a.setVars=function(c,b){a("setVars",[c,b])},a._w={},d="XMLHttpRequest",a._w[d]=e[d],d="fetch",a._w[d]=e[d],e[d]&&(e[d]=function(){return a._w[d].apply(this,arguments)}),a._v="1.3.0")}(window,document,window._fs_namespace,"script","user"));</script><script type="text/javascript" id="">window.FS&&"function"===typeof FS.identify&&window.currentUser&&(FS.identify(google_tag_manager["GTM-KHWBBT"].macro(398),{teamsv3User:google_tag_manager["GTM-KHWBBT"].macro(399)}),window._fs_ready=function(){var a=FS.getCurrentSessionURL();window.pendo&&"function"===typeof pendo.identify&&pendo.identify({visitor:{id:window.analytics&&window.analytics.user().id()||"",anonymous_id:window.analytics&&window.analytics.user().anonymousId()||"",mostRecentFullStorySession:a}})});</script></body></html>

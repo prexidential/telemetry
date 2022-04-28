@@ -1,0 +1,9 @@
+self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
+$__dart_deferred_initializers__.current=function(a,b,c,$){var A,B
+a.setFunctionNamesIfNecessary([])
+A=c[329]
+B=c[0]
+var z=a.updateTypes([]);(function constants(){A.ZI=new B.bg(84,"AGGREGATE_NOTIFICATION")})()}
+$__dart_deferred_initializers__["aGLfWKAUrNrM7hSqCLGe7JVk8+M="] = $__dart_deferred_initializers__.current
+
+//# sourceMappingURL=blend_main.dart.js_107.part.js.map

@@ -1,0 +1,1103 @@
+self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
+$__dart_deferred_initializers__.current=function(a,b,c,$){var C={doW:function doW(d,e,f,g,h,i,j,k,l,m){var _=this
+_.a=d
+_.b=e
+_.c=f
+_.d=g
+_.e=h
+_.f=i
+_.r=j
+_.w=k
+_.x=l
+_.y=m},Vx:function Vx(d,e){this.a=d
+this.b=e},
+iYk(){return E.K_(null,new C.d8Q(),new C.d8R())},
+iYg(){return E.K_(null,new C.d8I(),new C.d8J())},
+iYh(){return E.K_(null,new C.d8K(),new C.d8L())},
+iYi(){return E.K_(null,new C.d8M(),new C.d8N())},
+iYj(){return E.K_(null,new C.d8O(),new C.d8P())},
+iYl(){return E.K_(null,new C.d8S(),new C.d8T())},
+iYm(){return E.K_(null,new C.d8U(),new C.d8V())},
+d8Q:function d8Q(){},
+d8R:function d8R(){},
+d8I:function d8I(){},
+d8J:function d8J(){},
+d8K:function d8K(){},
+d8L:function d8L(){},
+d8M:function d8M(){},
+d8N:function d8N(){},
+d8O:function d8O(){},
+d8P:function d8P(){},
+d8S:function d8S(){},
+d8T:function d8T(){},
+d8U:function d8U(){},
+d8V:function d8V(){},
+k2s(d){switch(d){case B.iv:return $.epz()
+case B.iC:return $.hH0()
+case B.iD:return $.hH2()
+case B.iG:return $.hH5()
+case B.iI:return $.hH9()
+case B.iA:return $.hHb()
+case B.iB:return $.hHc()
+case B.iF:return $.hHf()
+case B.iE:return $.hHh()
+case B.ix:return $.hHm()
+case B.im:return $.hHo()
+case B.io:return $.hHq()
+case B.is:case B.it:case B.iu:return $.hHd()
+case B.iH:case B.il:return $.hHF()
+case B.hs:return $.hHH()
+case B.iy:return $.hI0()
+case B.ht:return $.hHM()
+case B.iz:return $.epu()
+case B.ip:return $.e6i()
+case B.iq:case B.ir:case B.iw:case B.jq:return $.epy()
+case B.fc:$.inL().ko(B.al,"UNKNOWN BiddingStrategySystemStatus")
+return $.e6i()
+default:throw A.E(A.eG(d,y.b,null))}},
+fOY(d){switch(d){case B.iz:return $.epu()
+case B.iC:case B.iD:case B.iG:case B.iI:case B.iA:case B.iB:case B.iq:return $.hH1()
+case B.iF:case B.iE:case B.ix:case B.im:case B.io:case B.is:case B.it:case B.iu:case B.ir:return $.hHg()
+case B.hs:case B.iH:case B.il:case B.iy:case B.ht:case B.iw:return $.hHx()
+case B.jq:return $.epy()
+case B.ip:case B.fc:return $.e6i()
+case B.iv:return $.epz()
+default:throw A.E(A.eG(d,y.b,null))}},
+k2v(d,e){var w
+switch(d){case B.iC:return $.hGQ()
+case B.iD:return $.hGS()
+case B.iG:return $.hGU()
+case B.iI:return $.hGT()
+case B.iA:return $.hHR()
+case B.iB:return $.hHT()
+case B.iF:return $.hGR()
+case B.iE:return $.hHS()
+case B.ix:return $.hHl()
+case B.im:return $.hHt()
+case B.io:return $.hHu()
+case B.is:case B.it:case B.iu:return $.hGP()
+case B.iH:case B.il:return $.hGV()
+case B.iy:return $.hI_()
+case B.ht:if(e!=null)w=e===D.qx||e===D.qy
+else w=!1
+return w?$.epv():$.hHL()
+case B.hs:case B.iz:case B.iq:case B.ir:case B.iw:case B.ip:case B.iv:case B.fc:return""
+default:throw A.E(A.eG(d,y.b,null))}},
+k2t(d,e,f,g,h){var w,v,u
+switch(d){case B.iC:return C.iYg()
+case B.iD:return C.iYh()
+case B.iG:return C.iYi()
+case B.iI:return C.iYj()
+case B.iA:return C.iYk()
+case B.iB:return C.iYl()
+case B.iF:return $.hHe()
+case B.iE:return C.iYm()
+case B.ix:return C.jf0(e)
+case B.im:return $.hHn()
+case B.io:return $.hHp()
+case B.is:case B.it:case B.iu:return e===B.iJ?$.hHs():$.hHr()
+case B.iH:return $.hHy()
+case B.il:return $.hHB()
+case B.iy:return C.jff(e,f,g)
+case B.hs:return $.hHG()
+case B.ht:if(g!=null)w=g===D.qx||g===D.qy
+else w=!1
+if(w){w=f.a.n(8)
+v=w.a.aF(0)
+u=w.a.aF(1)
+if(v&&u)return $.hHI()
+else if(v)return $.epw()
+else if(u)return $.epx()}return $.epv()
+case B.iz:return e===B.iJ?$.hGY():$.hGX()
+case B.ip:case B.fc:return $.hI1()
+case B.iv:if(e===B.c4){w=$.hHv()
+return w}else if(e===B.bP){w=$.hHw()
+return w}return $.hI2()
+case B.jq:return $.hHN()
+case B.iq:return $.hHO()
+case B.ir:return $.hHP()
+case B.iw:return $.hHQ()
+default:throw A.E(A.eG(d,y.b,null))}},
+k2l(d,e,f,g){var w,v,u,t,s,r,q,p,o,n,m=null
+switch(d){case B.iz:return A.b([$.hGZ(),$.hH_(),$.hGW()],x.s)
+case B.iC:case B.iD:case B.iA:case B.iB:w=A.b([],x.s)
+v=e.a.n(0).a.bO(0)
+if(v>0){u=$.bck().aM(v)
+w.push(A.bK(v,A.b([u,v],x.f),m,m,m,m,"Messages_learningDaysLeftAnnotation",u+" day left for learning",u+" days left for learning",m,m,m))}t=e.a.n(0).a.bO(1)
+if(t>0){u=$.bck().aM(t)
+w.push(A.bK(t,A.b([u,t],x.f),m,m,m,m,"Messages_learningDaysSinceChangeAnnotation",u+" day since the last significant change",u+" days since the last significant change",m,m,m))}return w
+case B.iG:u=e.a.n(3)
+w=A.b([],x.s)
+if(u.a.aF(0))w.push($.hH4())
+else if(u.a.aF(1))w.push($.hH3())
+return w
+case B.iI:u=e.a.n(4)
+w=A.b([],x.s)
+if(u.a.aF(0))w.push($.hH6())
+else if(u.a.aF(1))w.push($.hH8())
+else if(u.a.aF(2))w.push($.hHa())
+if(u.a.aF(5)||u.a.aF(6)||u.a.aF(7))w.push($.hH7())
+return w
+case B.iF:s=e.a.n(1).a.bO(1)
+r=e.a.n(1).a.bO(2)
+u=A.b([],x.s)
+if(s>0&&s<=100){q=$.a2k().aM(s/100)
+u.push(A.f(q+" of impressions are limited by your budget",m,"Messages_limitedBudgetImpressionsAnnotation",A.b([q],x.f),m))}if(r>0&&r<=100){q=$.a2k().aM(r/100)
+u.push(A.f(q+" of keywords are limited by your budget",m,"Messages_limitedBudgetKeywordsAnnotation",A.b([q],x.f),m))}return u
+case B.is:p=e.a.n(1).a.bO(0)
+r=e.a.n(1).a.bO(2)
+s=e.a.n(1).a.bO(1)
+u=A.b([],x.s)
+if(p>0&&p<=100){q=$.a2k().aM(p/100)
+u.push(A.f(q+" of spend is limited by your max. bid limit",m,"Messages_limitedMaxBidLimitSpendAnnotation",A.b([q],x.f),m))}if(s>0&&s<=100){q=$.a2k().aM(s/100)
+u.push(A.f(q+" of impressions are limited by your max. bid limit",m,"Messages_limitedMaxBidLimitImpressionsAnnotation",A.b([q],x.f),m))}if(r>0&&r<=100){q=$.a2k().aM(r/100)
+u.push(A.f(q+" of keywords are limited by your max. bid limit",m,"Messages_limitedMaxBidLimitKeywordsAnnotation",A.b([q],x.f),m))}return u
+case B.it:p=e.a.n(1).a.bO(0)
+u=p>0&&p<=100
+q=x.s
+if(u){u=$.a2k().aM(p/100)
+q=A.b([A.f(u+" of spend is limited by your min. bid limit",m,"Messages_limitedMinBidLimitSpendAnnotation",A.b([u],x.f),m)],q)
+u=q}else u=A.b([],q)
+return u
+case B.iu:p=e.a.n(1).a.bO(0)
+u=p>0&&p<=100
+q=x.s
+if(u){u=$.a2k().aM(p/100)
+q=A.b([A.f(u+" of spend is limited by your min. ROAS",m,"Messages_limitedMinRoasSpendAnnotation",A.b([u],x.f),m)],q)
+u=q}else u=A.b([],q)
+return u
+case B.iE:u=e.a.n(2).a.n(1)
+q=x.b
+return A.am(new A.dT(new A.at(A.b([u.a.n(0),u.a.n(1)],x.D),C.k88(),x.x),new C.e2S(),q),!0,q.i("Y.E"))
+case B.io:r=e.a.n(1).a.bO(2)
+u=r>0&&r<=100
+q=x.s
+if(u){u=$.a2k().aM(r/100)
+o=$.bck().aM(4)
+q=A.b([A.f(u+" of your keywords have a Quality Score less than "+o,m,"Messages_limitedLowQualityAnnotation",A.b([u,o],x.f),m)],q)
+u=q}else u=A.b([],q)
+return u
+case B.il:u=e.a.n(5)
+n=A.b([],x.s)
+if(u.a.aF(2))n.push($.hHC())
+else if(u.a.aF(0))n.push($.hHz())
+else if(u.a.aF(1))n.push($.hHE())
+else if(u.a.aF(3))n.push($.hHA())
+else if(u.a.aF(4))n.push($.hHD())
+return n
+case B.ht:u=e.a.n(8)
+if(g!=null)q=g===D.qx||g===D.qy
+else q=!1
+if(q){u=e.a.n(8)
+u=u.a.aF(0)&&u.a.aF(1)
+q=x.s
+if(u)return A.b([$.hHJ(),$.hHK()],q)
+else return A.b([],q)}q=A.b([],x.s)
+if(u.a.aF(0))q.push($.epw())
+if(u.a.aF(1))q.push($.epx())
+return q
+case B.hs:case B.ix:case B.im:case B.iH:case B.iy:case B.ip:case B.iv:case B.iq:case B.ir:case B.iw:case B.jq:case B.fc:return A.b([],x.s)
+default:throw A.E(A.eG(d,y.b,m))}},
+k6P(d,e){switch(d){case B.iz:case B.iC:case B.iD:case B.iG:case B.iI:case B.iA:case B.iB:case B.iF:case B.iE:case B.io:case B.is:case B.it:case B.iu:case B.il:case B.iy:case B.ht:return!0
+case B.hs:case B.ix:case B.im:case B.iH:case B.ip:case B.iv:case B.iq:case B.ir:case B.iw:case B.jq:case B.fc:return!1
+default:throw A.E(A.eG(d,y.b,null))}},
+fOZ(d){switch(d){case B.iv:return"check_circle"
+case B.iC:case B.iD:case B.iG:case B.iI:case B.iA:case B.iB:case B.iq:case B.ir:case B.iw:case B.jq:case B.ht:return"info"
+case B.iz:case B.iF:case B.iE:case B.ix:case B.im:case B.io:case B.is:case B.it:case B.iu:return"warning"
+case B.hs:case B.iH:case B.il:case B.iy:return"error"
+case B.ip:case B.fc:return""
+default:throw A.E(A.eG(d,y.b,null))}},
+k2u(d,e){var w,v
+switch(d){case B.iF:return A.b(["2616012"],x.s)
+case B.io:return A.b(["140351"],x.s)
+case B.iy:return A.b(["6263057"],x.s)
+case B.ht:w=e.a.n(8)
+if(w.a.aF(0))return A.b(["7674740","BestPractices"],x.s)
+else{v=x.s
+if(w.a.aF(1))return A.b(["7674740","MaximizeYourCoverage"],v)
+else return A.b(["7674740"],v)}case B.hs:return A.b(["10003793"],x.s)
+case B.iv:case B.iC:case B.iD:case B.iG:case B.iI:case B.iA:case B.iB:case B.iq:case B.ir:case B.iw:case B.jq:case B.iz:case B.iE:case B.ix:case B.im:case B.is:case B.it:case B.iu:case B.iH:case B.il:case B.ip:case B.fc:return A.b([],x.s)
+default:throw A.E(A.eG(d,y.b,null))}},
+jeI(d){var w
+if(d.a.n(0)!=null)if(d.a.n(1)!=null)if(d.a.n(1)>0){d.a.bO(2)
+w=d.a.bO(2)>0}else w=!1
+else w=!1
+else w=!1
+return w},
+jf0(d){switch(d){case B.fd:case B.c4:return $.hHk()
+case B.eM:case B.bP:return $.hHj()
+case B.em:return $.hHi()
+default:break}throw A.E(A.eG(J.aB(d),"unsupported strategy type for limited by inventory status",null))},
+jff(d,e,f){var w,v,u,t,s,r=null,q=" outside campaigns from their shared budgets, or add them to this portfolio bid strategy.",p=" campaigns. Remove this campaign from the shared budget, or add all campaigns in the shared budget to a single portfolio bid strategy."
+switch(f){case D.qy:return $.hHZ()
+case D.bZ3:return $.hHW()
+case D.bZ4:return $.hHX()
+case D.bZ5:return $.hHY()
+default:break}w=e==null?r:e.a.ak(7)
+v=f===D.a0t
+if(w===!0){u=$.bck().aM(e.a.n(7).a.bO(1))
+t=e.a.n(7).a.bO(1)
+switch(d){case B.c4:s=x.f
+return v?A.bK(t,A.b([u,t],s),r,r,r,r,"Messages_sharedBudgetMaxConversionsPortfolio","This portfolio bid strategy can't maximize conversions while containing campaigns that share budgets with another campaign outside the portfolio. Remove that outside campaign from its shared budget, or add it to this portfolio bid strategy.","This portfolio bid strategy can't maximize conversions while containing campaigns that share budgets with campaigns outside the portfolio. Remove those "+u+q,r,r,r):A.bK(t,A.b([u,t],s),r,r,r,r,"Messages_sharedBudgetMaxConversionsStandard","This campaign can't maximize conversions while sharing a budget with another campaign. Remove this campaign from its shared budget, or add all campaigns in the shared budget to a single portfolio bid strategy.","This campaign can't maximize conversions while sharing a budget with "+u+p,r,r,r)
+case B.bP:s=x.f
+return v?A.bK(t,A.b([u,t],s),r,r,r,r,"Messages_sharedBudgetMaxConversionValuePortfolio","This portfolio bid strategy can't maximize conversion value while containing campaigns that share budgets with another campaign outside the portfolio. Remove that outside campaign from its shared budget, or add it to this portfolio bid strategy.","This portfolio bid strategy can't maximize conversion value while containing campaigns that share budgets with campaigns outside the portfolio. Remove those "+u+q,r,r,r):A.bK(t,A.b([u,t],s),r,r,r,r,"Messages_sharedBudgetMaxConversionValueStandard","This campaign can't maximize conversion value while sharing a budget with another campaign. Remove this campaign from its shared budget, or add all campaigns in the shared budget to a single portfolio bid strategy.","This campaign can't maximize conversion value while sharing a budget with "+u+p,r,r,r)
+case B.em:s=x.f
+return v?A.bK(t,A.b([u,t],s),r,r,r,r,"Messages_sharedBudgetMaxClicksPortfolio","This portfolio bid strategy can't maximize clicks while containing campaigns that share budgets with another campaign outside the portfolio. Remove that outside campaign from its shared budget, or add it to this portfolio bid strategy.","This portfolio bid strategy can't maximize clicks while containing campaigns that share budgets with campaigns outside the portfolio. Remove those "+u+q,r,r,r):A.bK(t,A.b([u,t],s),r,r,r,r,"Messages_sharedBudgetMaxClicksStandard","This campaign can't maximize clicks while sharing a budget with another campaign. Remove this campaign from its shared budget, or add all campaigns in the shared budget to a single portfolio bid strategy.","This campaign can't maximize clicks while sharing a budget with "+u+p,r,r,r)
+default:break}}else switch(d){case B.c4:case B.fd:return $.hHU()
+case B.bP:case B.eM:return $.hHV()
+default:break}throw A.E(A.eG(J.aB(d),"unsupported strategy type for misconfigured shared budget status",r))},
+e2S:function e2S(){},
+kV:function kV(d,e,f,g,h){var _=this
+_.a=d
+_.b=e
+_.c=f
+_.d=g
+_.e=h
+_.x=_.w=_.r=_.f=null
+_.z=_.y=!0
+_.as=_.Q=!1},
+fc1(d,e){var w,v=new C.bAz(A.ab(d,e,3)),u=$.fc2
+if(u==null)u=$.fc2=A.ae($.k9f,null)
+A.e($,"componentStyles")
+v.b=u
+w=document.createElement("strategy-status-tooltip-content")
+A.e($,"rootElement")
+v.c=w
+return v},
+kuu(d,e){return new C.c5j(A.N(),A.z(d,e,x.P))},
+kuz(d,e){return new C.c5o(A.N(),A.N(),A.z(d,e,x.P))},
+kuA(d,e){return new C.c5p(A.N(),A.z(d,e,x.P))},
+kuB(d,e){return new C.c5q(A.z(d,e,x.P))},
+kuC(d,e){return new C.c5r(A.z(d,e,x.P))},
+kuD(d,e){return new C.c5s(A.z(d,e,x.P))},
+kuE(d,e){return new C.c5t(A.N(),A.z(d,e,x.P))},
+kuF(d,e){return new C.c5u(A.z(d,e,x.P))},
+kuG(d,e){return new C.c5v(A.N(),A.z(d,e,x.P))},
+kuv(d,e){return new C.c5k(A.z(d,e,x.P))},
+kuw(d,e){return new C.c5l(A.N(),A.z(d,e,x.P))},
+kux(d,e){return new C.c5m(A.N(),A.z(d,e,x.P))},
+kuy(d,e){return new C.c5n(A.N(),A.z(d,e,x.P))},
+bAz:function bAz(d){var _=this
+_.f=_.e=null
+_.c=_.b=_.a=$
+_.d=d},
+c5j:function c5j(d,e){var _=this
+_.b=d
+_.CW=_.ch=_.ay=_.ax=_.at=_.as=_.Q=_.z=_.y=_.x=_.w=_.r=_.f=_.e=_.d=_.c=null
+_.a=e},
+c5o:function c5o(d,e,f){var _=this
+_.b=d
+_.c=e
+_.e=_.d=null
+_.a=f},
+c5p:function c5p(d,e){var _=this
+_.b=d
+_.d=_.c=null
+_.a=e},
+c5q:function c5q(d){var _=this
+_.f=_.e=_.d=_.c=_.b=null
+_.a=d},
+c5r:function c5r(d){var _=this
+_.r=_.f=_.e=_.d=_.c=_.b=null
+_.a=d},
+c5s:function c5s(d){var _=this
+_.e=_.d=_.c=_.b=null
+_.a=d},
+c5t:function c5t(d,e){this.b=d
+this.a=e},
+c5u:function c5u(d){var _=this
+_.d=_.c=_.b=null
+_.a=d},
+c5v:function c5v(d,e){this.b=d
+this.a=e},
+c5k:function c5k(d){var _=this
+_.r=_.f=_.e=_.d=_.c=_.b=null
+_.a=d},
+c5l:function c5l(d,e){var _=this
+_.b=d
+_.e=_.d=_.c=null
+_.a=e},
+c5m:function c5m(d,e){var _=this
+_.b=d
+_.e=_.d=_.c=null
+_.a=e},
+c5n:function c5n(d,e){this.b=d
+this.a=e},
+ekd(d,e){var w=null
+switch(d){case B.ba:return A.aVq(A.fS(e,w,w,B.C,!1,!1,!1,!1,w,w,w,w),w)
+case B.bA:return A.aVp(A.fS(e,w,w,B.C,!1,!1,!1,!1,w,w,w,w))
+case B.cV:return A.bhq(A.fS(e,w,w,B.C,!1,!1,!1,!1,w,w,w,w),w)
+case B.bX:return A.cJo(A.fS(e,w,w,B.C,!1,!1,!1,!1,w,w,w,w))
+case B.df:return A.aVr(A.fS(e,w,w,B.C,!1,!1,!1,!1,w,w,w,w),w)
+case B.eJ:return A.cJl(A.fS(e,w,w,B.C,!1,!1,!1,!1,w,w,w,w),w)
+case B.dX:return A.cJm(A.fS(e,w,w,B.C,!1,!1,!1,!1,w,w,w,w),w)
+default:$.inM().aJ(B.al,new C.dVo(),w,w)
+throw A.E(A.aH("Invalid channel type",w))}},
+dVo:function dVo(){}},D,A,B,J,G,F,H,E
+a.setFunctionNamesIfNecessary([C])
+C=a.updateHolder(c[122],C)
+D=c[342]
+A=c[0]
+B=c[2]
+J=c[1]
+G=c[157]
+F=c[230]
+H=c[253]
+E=c[188]
+C.doW.prototype={
+gaQ(d){return this.a}}
+C.Vx.prototype={
+Y(d){return"BiddingStrategyStatusEntity."+this.b}}
+C.kV.prototype={
+sbf(d){var w,v,u=this
+u.w=d
+if(u.b.St(d)){u.x=D.qy
+w=u.r=d.a.n(23).a.n(2)
+v=u.x
+u.x=v==null?D.a0t:v
+u.aiY(w.a.n(6),w.a.n(7),w.a.n(3))
+u.aWN(w)}else{u.x=D.qx
+u.aiY(d.a.n(23).a.n(3),d.a.n(23).a.n(4),d.a.n(23).a.n(0))}u.aWM(d)},
+gabf(){var w=$.haO(),v=this.w
+v=v==null?null:v.a.n(23)
+return w.a5(0,v==null?null:v.a.n(3))},
+Jm(){var w,v,u,t,s=this,r="BiddingStrategyStatusTooltip.clickViewReport",q=s.w
+if(q!=null){w=s.b
+q=w.St(q)
+v=s.w
+if(q){q=v.a.n(23).a.n(2).a.S(1)
+w.aak(s.w.a.n(23).a.n(0),s.w,r,q)}else{q=v.a.S(1)
+v=s.w.a.n(23).a.n(0)
+u=s.w.a.n(6)
+t=s.w.a.n(10)
+w.aan(v,s.w,q,t,u,r)}}else{q=s.r
+if(q!=null){q=q.a.S(1)
+s.b.VA(s.r.a.n(3),r,s.r,q)}}},
+bIF(){var w,v,u,t,s,r,q,p,o,n=this,m=null,l=null
+try{l=C.ekd(n.w.a.n(6),n.w.a.S(1))}catch(w){if(A.bo(w) instanceof A.r8){v=A.c7(m,m,m,B.C,!1,!1,!1,!1,m,n.e.gdq().a.S(0),m,m)
+u=A.J8()
+t=A.b2f()
+s=t.a.O(1,x.c)
+r=A.QD()
+$.oe().toString
+r.a.T(0,"bid_config.type")
+r.a_(2,B.rr)
+q=r.a.O(2,x.e)
+p=A.lD()
+o=A.ak(24)
+p.a.T(0,o)
+J.ad(q,p)
+J.au(s,A.b([r],x.y))
+u.a_(2,t)
+l=A.bhp(v,u)}else throw w}n.d.cq(l)},
+afE(d,e){var w,v=this,u=v.b.acr(d,e),t=J.iY(u)
+if(t.ah(u,$.a2i())){w=v.c.a
+w=!(w instanceof A.KT||w instanceof A.KV)}else w=!1
+v.Q=w
+v.as=t.ah(u,$.e6J())},
+aWN(d){return this.afE(null,d)},
+aWM(d){return this.afE(d,null)},
+aiY(d,e,f){var w,v=this.x,u=C.k2u(d,e),t=C.k2s(d),s=C.fOY(d),r=C.k2v(d,v),q=C.k2t(d,f,e,v,!1),p=e!=null,o=p?C.k2l(d,e,f,v):A.b([],x.s),n=C.fOZ(d),m=u.length,l=m!==0?u[0]:null
+m=m>=2?u[1]:null
+w=p&&C.k6P(d,e)
+if(p)if(d===B.ht)if(v===D.qx){v=e.a.n(8)
+v=v.a.aF(0)&&v.a.aF(1)}else v=!1
+else v=!1
+else v=!1
+this.f=new C.doW(t,s,r,q,n,l,m,v,o,w)
+this.a.X(0,r)}}
+C.bAz.prototype={
+C(){var w,v=this,u=v.ao()
+v.e=A.q(0,null,v,A.D(u))
+w=v.e
+v.f=new A.B(new A.y(w,C.k89()),w)
+A.A(u,"\n")},
+H(){var w=A.a(this.a,"ctx"),v=w.w!=null||w.r!=null
+this.f.sU(v)
+this.e.K()},
+L(){this.e.J()}}
+C.c5j.prototype={
+C(){var w,v,u,t,s,r,q,p,o=this,n="\n  ",m=null,l="\n\n    ",k=A.aA(n)
+o.c=A.q(1,m,o,A.ay())
+w=o.c
+o.d=new A.B(new A.y(w,C.k8e()),w)
+v=A.aA(n)
+o.e=A.q(3,m,o,A.ay())
+w=o.e
+o.f=new A.B(new A.y(w,C.k8f()),w)
+u=A.aA("\n\n  ")
+t=document.createElement("div")
+o.I(t,"description")
+o.gj().k(t)
+A.A(t,"\n    ")
+t.appendChild(o.b.b)
+A.A(t,l)
+o.r=A.q(9,5,o,A.D(t))
+w=o.r
+o.w=new A.B(new A.y(w,C.k8h()),w)
+A.A(t,l)
+o.x=A.q(11,5,o,A.D(t))
+w=o.x
+o.y=new A.B(new A.y(w,C.k8i()),w)
+A.A(t,l)
+o.z=A.q(13,5,o,A.D(t))
+w=o.z
+o.Q=new A.B(new A.y(w,C.k8a()),w)
+A.A(t,n)
+s=A.aA("\n\n  ")
+o.as=A.q(16,m,o,A.ay())
+w=o.as
+o.at=new A.B(new A.y(w,C.k8b()),w)
+r=A.aA(n)
+o.ax=A.q(18,m,o,A.ay())
+w=o.ax
+o.ay=new A.B(new A.y(w,C.k8c()),w)
+q=A.aA(n)
+o.ch=A.q(20,m,o,A.ay())
+w=o.ch
+o.CW=new A.B(new A.y(w,C.k8d()),w)
+p=A.aA("\n")
+o.am(A.b([k,o.c,v,o.e,u,t,s,o.as,r,o.ax,q,o.ch,p],x.M),m)},
+H(){var w,v,u,t,s,r,q,p=this,o=p.a.a,n=o.y
+p.d.sU(n)
+w=o.z&&o.f.c.length!==0
+p.f.sU(w)
+v=o.f
+u=v.f!=null&&!v.w
+p.w.sU(u)
+v=o.f.x.length
+p.y.sU(v!==0)
+v=o.f
+t=v.f!=null&&v.w
+p.Q.sU(t)
+s=o.Q
+p.at.sU(s)
+r=o.gabf()
+p.ay.sU(r)
+q=o.as&&!o.gabf()
+p.CW.sU(q)
+p.c.K()
+p.e.K()
+p.r.K()
+p.x.K()
+p.z.K()
+p.as.K()
+p.ax.K()
+p.ch.K()
+v=o.f.d
+if(v==null)v=""
+p.b.a7(v)},
+L(){var w=this
+w.c.J()
+w.e.J()
+w.r.J()
+w.x.J()
+w.z.J()
+w.as.J()
+w.ax.J()
+w.ch.J()}}
+C.c5o.prototype={
+C(){var w,v,u,t=this,s="\n    ",r=document,q=r.createElement("div")
+t.I(q,"category")
+t.gj().k(q)
+A.A(q,s)
+w=A.aP(r,q)
+t.I(w,"label")
+t.gj().k(w)
+w.appendChild(t.b.b)
+A.A(q,s)
+v=A.aP(r,q)
+t.gj().k(v)
+u=A.b([],x.s)
+t.d=new A.eZ(v,u)
+A.A(v,"\n      ")
+v.appendChild(t.c.b)
+A.A(v,s)
+A.A(q,"\n  ")
+t.V(q)},
+H(){var w=this,v=null,u=w.a.a,t=u.f.e,s=w.e
+if(s!==t){w.d.sex(t)
+w.e=t}w.d.aR()
+s=A.f("Bid strategy: ",v,v,v,v)
+if(s==null)s=""
+w.b.a7(s)
+s=u.f.b
+if(s==null)s=""
+w.c.a7(s)},
+L(){var w=this.d
+w.e2(w.e,!0)
+w.dW(!1)}}
+C.c5p.prototype={
+C(){var w,v=this,u=document.createElement("div")
+v.I(u,"reason")
+v.gj().k(u)
+A.A(u,"\n    ")
+v.c=A.q(2,0,v,A.D(u))
+w=v.c
+v.d=new A.B(new A.y(w,C.k8g()),w)
+A.A(u,"\n    ")
+u.appendChild(v.b.b)
+A.A(u,"\n  ")
+v.V(u)},
+H(){var w=this,v=w.a.a,u=v.f.e
+w.d.sU(u.length!==0)
+w.c.K()
+u=v.f.c
+if(u==null)u=""
+w.b.a7(u)},
+L(){this.c.J()}}
+C.c5q.prototype={
+C(){var w,v=this,u=G.dCt(v,0)
+v.b=u
+u=A.a(u.c,"rootElement")
+v.gj().k(u)
+v.c=new G.Dg(u)
+w=A.b([],x.s)
+v.d=new A.eZ(u,w)
+v.b.a3(0,v.c)
+v.V(u)},
+H(){var w,v,u=this,t=u.a.a,s=t.f.e,r=u.e
+if(r!==s){u.c.saK(0,s)
+u.e=s
+w=!0}else w=!1
+if(w)u.b.d.sa2(1)
+v=t.f.e
+r=u.f
+if(r!==v){u.d.sex(v)
+u.f=v}u.d.aR()
+u.b.N()},
+L(){this.b.R()
+var w=this.d
+w.e2(w.e,!0)
+w.dW(!1)}}
+C.c5r.prototype={
+C(){var w,v,u=this,t=F.t6(u,0)
+u.b=t
+t=A.a(t.c,"rootElement")
+u.gj().k(t)
+w=u.a.c
+v=A.kq(w.gh().gh().u(B.bT,w.gh().gm()),w.gh().gh().G(B.bR,w.gh().gm()),w.gh().gh().G(B.bU,w.gh().gm()),w.gh().gh().G(B.bS,w.gh().gm()),w.gh().gh().G(B.bL,w.gh().gm()),w.gh().gh().G(B.bV,w.gh().gm()),w.gh().gh().G(B.bM,w.gh().gm()),w.gh().gh().G(B.c6,w.gh().gm()))
+u.c=v
+v=w.gh().gh().G(B.t,w.gh().gm())
+v=new A.aX(v===!0)
+u.d=v
+w=F.rw(u.c,t,v,new A.dY(u,0),w.gh().gh().G(B.br,w.gh().gm()),w.gh().gh().G(B.c7,w.gh().gm()),w.gh().gh().G(B.bx,w.gh().gm()),w.gh().gh().G(B.f,w.gh().gm()),w.gh().gh().G(B.co,w.gh().gm()),w.gh().gh().G(B.cL,w.gh().gm()))
+u.e=w
+u.b.a3(0,w)
+u.V(t)},
+aa(d,e,f){var w
+if(e<=1){if(d===B.bl){w=this.c
+return w}if(d===B.r){w=this.d
+return w}if(d===H.cr||d===B.i){w=this.e
+return w}}return f},
+H(){var w,v,u,t,s=this,r=s.a,q=r.a
+r=r.Q
+w=q.f.f
+v=s.f
+if(v!=w){v=s.e
+v.x=w
+v.ea()
+s.f=w
+u=!0}else u=!1
+t=q.f.r
+v=s.r
+if(v!=t){v=s.e
+v.Q=t
+v.ea()
+s.r=t
+u=!0}if(u)s.b.d.sa2(1)
+if(r===0){r=s.e
+r.f=!0
+r.ea()}s.b.N()},
+L(){this.b.R()
+this.e.cy.a8(0)}}
+C.c5s.prototype={
+C(){var w,v=this,u=document.createElement("div")
+v.I(u,"annotation")
+v.gj().k(u)
+A.A(u,"\n      ")
+v.b=A.q(2,0,v,A.D(u))
+w=v.b
+v.c=new A.B(new A.y(w,C.k8j()),w)
+A.A(u,"\n      ")
+v.d=A.q(4,0,v,A.D(u))
+w=v.d
+v.e=new A.B(new A.y(w,C.k8k()),w)
+A.A(u,"\n    ")
+v.V(u)},
+H(){var w,v=this,u=v.a.a,t=u.f.y
+v.c.sU(!t)
+w=u.f.y
+v.e.sU(w)
+v.b.K()
+v.d.K()},
+L(){this.b.J()
+this.d.J()}}
+C.c5t.prototype={
+C(){var w=document.createElement("div")
+this.gj().k(w)
+A.A(w,"\n        ")
+w.appendChild(this.b.b)
+A.A(w,"\n      ")
+this.V(w)},
+H(){var w=null,v=B.a.gar(this.a.a.f.x)
+if(v==null)v=""
+this.b.a7(v)}}
+C.c5u.prototype={
+C(){var w,v=this,u=document.createElement("ul")
+v.gj().k(u)
+A.A(u,"\n        ")
+v.b=A.q(2,0,v,A.D(u))
+w=v.b
+v.c=new A.bb(w,new A.y(w,C.k8l()))
+A.A(u,"\n      ")
+v.V(u)},
+H(){var w=this,v=w.a.a.f.x,u=w.d
+if(u!==v){w.c.sb8(v)
+w.d=v}w.c.aR()
+w.b.K()},
+L(){this.b.J()}}
+C.c5v.prototype={
+C(){var w=document.createElement("li")
+this.gj().k(w)
+A.A(w,"\n          ")
+w.appendChild(this.b.b)
+A.A(w,"\n        ")
+this.V(w)},
+H(){var w=null,v=this.a.f.l(0,"$implicit"),u=v==null?"":v
+this.b.a7(u)}}
+C.c5k.prototype={
+C(){var w,v,u=this,t=F.t6(u,0)
+u.b=t
+t=A.a(t.c,"rootElement")
+u.gj().k(t)
+w=u.a.c
+v=A.kq(w.gh().gh().u(B.bT,w.gh().gm()),w.gh().gh().G(B.bR,w.gh().gm()),w.gh().gh().G(B.bU,w.gh().gm()),w.gh().gh().G(B.bS,w.gh().gm()),w.gh().gh().G(B.bL,w.gh().gm()),w.gh().gh().G(B.bV,w.gh().gm()),w.gh().gh().G(B.bM,w.gh().gm()),w.gh().gh().G(B.c6,w.gh().gm()))
+u.c=v
+v=w.gh().gh().G(B.t,w.gh().gm())
+v=new A.aX(v===!0)
+u.d=v
+w=F.rw(u.c,t,v,new A.dY(u,0),w.gh().gh().G(B.br,w.gh().gm()),w.gh().gh().G(B.c7,w.gh().gm()),w.gh().gh().G(B.bx,w.gh().gm()),w.gh().gh().G(B.f,w.gh().gm()),w.gh().gh().G(B.co,w.gh().gm()),w.gh().gh().G(B.cL,w.gh().gm()))
+u.e=w
+u.b.a3(0,w)
+u.V(t)},
+aa(d,e,f){var w
+if(e<=1){if(d===B.bl){w=this.c
+return w}if(d===B.r){w=this.d
+return w}if(d===H.cr||d===B.i){w=this.e
+return w}}return f},
+H(){var w,v,u,t,s=this,r=s.a,q=r.a
+r=r.Q
+w=q.f.f
+v=s.f
+if(v!=w){v=s.e
+v.x=w
+v.ea()
+s.f=w
+u=!0}else u=!1
+t=q.f.r
+v=s.r
+if(v!=t){v=s.e
+v.Q=t
+v.ea()
+s.r=t
+u=!0}if(u)s.b.d.sa2(1)
+if(r===0){r=s.e
+r.f=!0
+r.ea()}s.b.N()},
+L(){this.b.R()
+this.e.cy.a8(0)}}
+C.c5l.prototype={
+C(){var w,v,u,t,s,r,q,p,o=this,n=o.a,m=document.createElement("div")
+o.I(m,"footer")
+o.gj().k(m)
+A.A(m,"\n    ")
+w=A.b6(o,2)
+o.c=w
+w=A.a(w.c,"rootElement")
+m.appendChild(w)
+A.u(w,"buttonDecorator","")
+o.gj().k(w)
+v=n.c
+v=v.gh().gh().G(B.t,v.gh().gm())
+v=new A.aX(v===!0)
+o.d=v
+v=A.b5(w,v,o.c,null)
+o.e=v
+u=A.aA("\n      ")
+t=A.aA("\n    ")
+s=x.M
+o.c.af(v,A.b([A.b([u,o.b.b,t],s)],x.u))
+A.A(m,"\n  ")
+v=x.L
+r=J.af(w)
+r.az(w,"click",o.Z(o.e.gbx(),v,x.X))
+r.az(w,"keypress",o.Z(o.e.gbp(),v,x.S))
+v=o.e.b
+n=n.a.gJl()
+w=x.p
+q=new A.n(v,A.w(v).i("n<1>")).P(0,o.al(n,w))
+v=o.e.b
+p=new A.n(v,A.w(v).i("n<1>")).P(0,o.al(n,w))
+o.am(A.b([m],s),A.b([q,p],x.a))},
+aa(d,e,f){var w
+if(2<=e&&e<=5){if(d===B.r){w=this.d
+return w}if(d===B.y||d===B.n||d===B.h||d===B.i){w=this.e
+return w}}return f},
+H(){var w=this,v=null,u=w.a,t=u.Q,s=v
+w.c.aj(t===0)
+u.a.toString
+u=A.f("View bid strategy report",v,v,v,v)
+if(u==null)u=""
+w.b.a7(u)
+w.c.N()},
+L(){this.c.R()}}
+C.c5m.prototype={
+C(){var w,v,u,t,s,r,q,p,o=this,n=o.a,m=document.createElement("div")
+o.I(m,"footer")
+o.gj().k(m)
+A.A(m,"\n    ")
+w=A.b6(o,2)
+o.c=w
+w=A.a(w.c,"rootElement")
+m.appendChild(w)
+A.u(w,"buttonDecorator","")
+A.u(w,"debugId","fix-it-button")
+o.gj().k(w)
+v=n.c
+v=v.gh().gh().G(B.t,v.gh().gm())
+v=new A.aX(v===!0)
+o.d=v
+v=A.b5(w,v,o.c,null)
+o.e=v
+u=A.aA("\n      ")
+t=A.aA("\n    ")
+s=x.M
+o.c.af(v,A.b([A.b([u,o.b.b,t],s)],x.u))
+A.A(m,"\n  ")
+v=x.L
+r=J.af(w)
+r.az(w,"click",o.Z(o.e.gbx(),v,x.X))
+r.az(w,"keypress",o.Z(o.e.gbp(),v,x.S))
+v=o.e.b
+n=n.a.gbIE()
+w=x.p
+q=new A.n(v,A.w(v).i("n<1>")).P(0,o.al(n,w))
+v=o.e.b
+p=new A.n(v,A.w(v).i("n<1>")).P(0,o.al(n,w))
+o.am(A.b([m],s),A.b([q,p],x.a))},
+aa(d,e,f){var w
+if(2<=e&&e<=5){if(d===B.r){w=this.d
+return w}if(d===B.y||d===B.n||d===B.h||d===B.i){w=this.e
+return w}}return f},
+H(){var w=this,v=null,u=w.a,t=u.Q,s=v
+w.c.aj(t===0)
+u.a.toString
+u=A.f("Fix it",v,v,v,v)
+if(u==null)u=""
+w.b.a7(u)
+w.c.N()},
+L(){this.c.R()}}
+C.c5n.prototype={
+C(){var w=this,v=document.createElement("div")
+w.I(v,"footer")
+w.gj().k(v)
+A.A(v,"\n    ")
+v.appendChild(w.b.b)
+A.A(v,"\n  ")
+w.V(v)},
+H(){var w,v=null
+this.a.a.toString
+w=$.eqO()
+if(w==null)w=""
+this.b.a7(w)}}
+var z=a.updateTypes(["v<~>*(m*,o*)","~()","F(wL)"])
+C.d8Q.prototype={
+$0(){return $.hGJ()},
+$S:6}
+C.d8R.prototype={
+$0(){return $.hGK()},
+$S:6}
+C.d8I.prototype={
+$0(){return $.hGB()},
+$S:6}
+C.d8J.prototype={
+$0(){return $.hGC()},
+$S:6}
+C.d8K.prototype={
+$0(){return $.hGD()},
+$S:6}
+C.d8L.prototype={
+$0(){return $.hGE()},
+$S:6}
+C.d8M.prototype={
+$0(){return $.hGF()},
+$S:6}
+C.d8N.prototype={
+$0(){return $.hGG()},
+$S:6}
+C.d8O.prototype={
+$0(){return $.hGH()},
+$S:6}
+C.d8P.prototype={
+$0(){return $.hGI()},
+$S:6}
+C.d8S.prototype={
+$0(){return $.hGL()},
+$S:6}
+C.d8T.prototype={
+$0(){return $.hGM()},
+$S:6}
+C.d8U.prototype={
+$0(){return $.hGN()},
+$S:6}
+C.d8V.prototype={
+$0(){return $.hGO()},
+$S:6}
+C.e2S.prototype={
+$1(d){var w=null,v=" days. Recommended minimum is ",u=J.kN(d.a.n(0)),t=$.bck(),s=t.aM(d.a.n(0)),r=t.aM(d.a.n(1)),q=x.f
+if(d.a.bO(2)===1)t=A.bK(u,A.b([s,r,u],q),w,w,w,w,"Messages_limitedDataAnnotationSingleDay",s+" conversion in the last day. Recommended minimum is "+r+".",s+" conversions in the last day. Recommended minimum is "+r+".",w,w,w)
+else{t=t.aM(d.a.bO(2))
+t=A.bK(u,A.b([s,r,t,u],q),w,w,w,w,"Messages_limitedDataAnnotationMultipleDays",s+" conversion in the last "+t+v+r+".",s+" conversions in the last "+t+v+r+".",w,w,w)}return t},
+$S:1637}
+C.dVo.prototype={
+$0(){return"Could not retrieve campaign settings place since invalid channel type was specified."},
+$S:5};(function installTearOffs(){var w=a._static_1,v=a._instance_0u,u=a._static_2
+w(C,"k88","jeI",2)
+var t
+v(t=C.kV.prototype,"gJl","Jm",1)
+v(t,"gbIE","bIF",1)
+u(C,"k89","kuu",0)
+u(C,"k8e","kuz",0)
+u(C,"k8f","kuA",0)
+u(C,"k8g","kuB",0)
+u(C,"k8h","kuC",0)
+u(C,"k8i","kuD",0)
+u(C,"k8j","kuE",0)
+u(C,"k8k","kuF",0)
+u(C,"k8l","kuG",0)
+u(C,"k8a","kuv",0)
+u(C,"k8b","kuw",0)
+u(C,"k8c","kux",0)
+u(C,"k8d","kuy",0)})();(function inheritance(){var w=a.inheritMany,v=a.inherit
+w(A.O,[C.doW,C.kV])
+v(C.Vx,A.iL)
+w(A.ei,[C.d8Q,C.d8R,C.d8I,C.d8J,C.d8K,C.d8L,C.d8M,C.d8N,C.d8O,C.d8P,C.d8S,C.d8T,C.d8U,C.d8V,C.dVo])
+v(C.e2S,A.cS)
+v(C.bAz,A.dv)
+w(A.v,[C.c5j,C.c5o,C.c5p,C.c5q,C.c5r,C.c5s,C.c5t,C.c5u,C.c5v,C.c5k,C.c5l,C.c5m,C.c5n])})()
+A.b_(b.typeUniverse,JSON.parse('{"bAz":{"m":[],"l":[]},"c5j":{"v":["kV*"],"m":[],"x":[],"l":[]},"c5o":{"v":["kV*"],"m":[],"x":[],"l":[]},"c5p":{"v":["kV*"],"m":[],"x":[],"l":[]},"c5q":{"v":["kV*"],"m":[],"x":[],"l":[]},"c5r":{"v":["kV*"],"m":[],"x":[],"l":[]},"c5s":{"v":["kV*"],"m":[],"x":[],"l":[]},"c5t":{"v":["kV*"],"m":[],"x":[],"l":[]},"c5u":{"v":["kV*"],"m":[],"x":[],"l":[]},"c5v":{"v":["kV*"],"m":[],"x":[],"l":[]},"c5k":{"v":["kV*"],"m":[],"x":[],"l":[]},"c5l":{"v":["kV*"],"m":[],"x":[],"l":[]},"c5m":{"v":["kV*"],"m":[],"x":[],"l":[]},"c5n":{"v":["kV*"],"m":[],"x":[],"l":[]}}'))
+var y={b:"Bid strategy system status not recognized."}
+var x=(function rtii(){var w=A.c
+return{c:w("lC"),e:w("dI"),D:w("r<wL>"),f:w("r<O>"),s:w("r<d>"),y:w("r<lC*>"),u:w("r<G<O*>*>"),M:w("r<O*>"),a:w("r<bO<~>*>"),b:w("dT<wL,d>"),x:w("at<wL>"),P:w("kV*"),L:w("b2*"),S:w("cc*"),X:w("cq*"),p:w("cT*")}})();(function constants(){D.qx=new C.Vx(0,"standardInCampaignPds")
+D.qy=new C.Vx(1,"portfolioInCampaignPds")
+D.bZ3=new C.Vx(2,"historicalPortfolio")
+D.bZ4=new C.Vx(3,"historicalStandard")
+D.a0t=new C.Vx(4,"portfolio")
+D.bZ5=new C.Vx(6,"unknown")})();(function staticFields(){$.khL=A.b(["._nghost-%ID%{display:block;max-width:360px}.reason._ngcontent-%ID%{align-items:center;display:flex}.category._ngcontent-%ID%,.reason._ngcontent-%ID%{font-size:15px;font-weight:700;padding-bottom:8px}glyph._ngcontent-%ID%{padding-right:8px}.category._ngcontent-%ID% > span.error._ngcontent-%ID%,.reason._ngcontent-%ID% > glyph.error._ngcontent-%ID%{color:#c5221f}.reason._ngcontent-%ID% > glyph.check_circle._ngcontent-%ID%{color:#1e8e3e}.reason._ngcontent-%ID% > glyph.info._ngcontent-%ID%{color:#1a73e8}.reason._ngcontent-%ID% > glyph.warning._ngcontent-%ID%{color:#d56e0c}.annotation._ngcontent-%ID%,.description._ngcontent-%ID%{margin-bottom:8px}.footer._ngcontent-%ID%{width:100%;border-top:1px solid #dadce0;margin-top:16px;padding-top:8px}material-button._ngcontent-%ID%{color:#1a73e8;margin:0}"],x.f)
+$.fc2=null
+$.k9f=A.b([$.khL],x.M)})();(function lazyInitializers(){var w=a.lazy,v=a.lazyFinal,u=a.lazyOld
+w($,"lEH","hH1",()=>{var t=null
+return A.f("Learning",t,t,t,t)})
+w($,"lEB","epu",()=>{var t=null
+return A.f("Inactive",t,t,t,t)})
+w($,"lEW","hHg",()=>{var t=null
+return A.f("Limited",t,t,t,t)})
+w($,"lFc","hHx",()=>{var t=null
+return A.f("Misconfigured",t,t,t,t)})
+w($,"lFv","epy",()=>{var t=null
+return A.f("Various",t,t,t,t)})
+w($,"lFL","e6i",()=>{var t=null
+return A.f("Unavailable",t,t,t,t)})
+w($,"lFN","epz",()=>{var t=null
+return A.f("Active",t,t,t,t)})
+w($,"lFA","hHR",()=>{var t=null
+return A.f("New bid strategy",t,t,t,t)})
+w($,"lFC","hHT",()=>{var t=null
+return A.f("Setting change",t,t,t,t)})
+w($,"lEu","hGQ",()=>{var t=null
+return A.f("Budget change",t,t,t,t)})
+w($,"lEw","hGS",()=>{var t=null
+return A.f("Composition change",t,t,t,t)})
+w($,"lEy","hGU",()=>{var t=null
+return A.f("Conversion setting change",t,t,t,t)})
+w($,"lEx","hGT",()=>{var t=null
+return A.f("Conversion action setting change",t,t,t,t)})
+w($,"lFJ","hI_",()=>{var t=null
+return A.f("Shared budget",t,t,t,t)})
+w($,"lFB","hHS",()=>{var t=null
+return A.f("Not enough data",t,t,t,t)})
+w($,"lEv","hGR",()=>{var t=null
+return A.f("Not enough budget",t,t,t,t)})
+w($,"lF0","hHl",()=>{var t=null
+return A.f("Low inventory",t,t,t,t)})
+w($,"lF8","hHt",()=>{var t=null
+return A.f("Low priority spend",t,t,t,t)})
+w($,"lF9","hHu",()=>{var t=null
+return A.f("Low Quality Score",t,t,t,t)})
+w($,"lEt","hGP",()=>{var t=null
+return A.f("Bid limits",t,t,t,t)})
+w($,"lEz","hGV",()=>{var t=null
+return A.f("Conversion setting",t,t,t,t)})
+w($,"lER","hHb",()=>{var t=null
+return A.f("Learning (new strategy)",t,t,t,t)})
+v($,"lEn","hGJ",()=>{var t=null
+return A.f("Google Ads is optimizing your new bid strategy. Performance may improve further. No action is needed at this time.",t,t,t,t)})
+v($,"lEo","hGK",()=>{var t=null
+return A.f("Search Ads 360 is optimizing your new bid strategy. Performance may improve further. No action is needed at this time.",t,t,t,t)})
+w($,"lEG","hH0",()=>{var t=null
+return A.f("Learning (budget change)",t,t,t,t)})
+v($,"lEf","hGB",()=>{var t=null
+return A.f("The budget was recently changed. Google Ads is now adjusting to optimize bids.",t,t,t,t)})
+v($,"lEg","hGC",()=>{var t=null
+return A.f("The budget was recently changed. Search Ads 360 is now adjusting to optimize bids.",t,t,t,t)})
+w($,"lEI","hH2",()=>{var t=null
+return A.f("Learning (composition change)",t,t,t,t)})
+v($,"lEh","hGD",()=>{var t=null
+return A.f("Campaigns have been added to or removed from the bid strategy. Google Ads is now adjusting to optimize bids.",t,t,t,t)})
+v($,"lEi","hGE",()=>{var t=null
+return A.f("Campaigns have been added to or removed from the bid strategy. Search Ads 360 is now adjusting to optimize bids.",t,t,t,t)})
+w($,"lEL","hH5",()=>{var t=null
+return A.f("Learning (conversion setting change)",t,t,t,t)})
+v($,"lEj","hGF",()=>{var t=null
+return A.f("A conversion setting was recently changed. Google Ads is now adjusting to optimize bids.",t,t,t,t)})
+v($,"lEk","hGG",()=>{var t=null
+return A.f("A conversion setting was recently changed. Search Ads 360 is now adjusting to optimize bids.",t,t,t,t)})
+w($,"lEP","hH9",()=>{var t=null
+return A.f("Learning (conversion action setting change)",t,t,t,t)})
+v($,"lEl","hGH",()=>{var t=null
+return A.f("A conversion action was recently changed. Google Ads is now adjusting to  optimize bids.",t,t,t,t)})
+v($,"lEm","hGI",()=>{var t=null
+return A.f("A conversion action was recently changed. Search Ads 360 is now adjusting to  optimize bids.",t,t,t,t)})
+w($,"lES","hHc",()=>{var t=null
+return A.f("Learning (setting change)",t,t,t,t)})
+v($,"lEp","hGL",()=>{var t=null
+return A.f("A setting for this bid strategy was recently changed. Google Ads is now adjusting to optimize bids.",t,t,t,t)})
+v($,"lEq","hGM",()=>{var t=null
+return A.f("A setting for this bid strategy was recently changed. Search Ads 360 is now adjusting to optimize bids.",t,t,t,t)})
+w($,"lEK","hH4",()=>{var t=null
+return A.f("Conversion tracking recently enabled",t,t,t,t)})
+w($,"lEJ","hH3",()=>{var t=null
+return A.f("Conversion bid metric recently changed",t,t,t,t)})
+w($,"lEM","hH6",()=>{var t=null
+return A.f("App conversion action recently added or removed",t,t,t,t)})
+w($,"lEO","hH8",()=>{var t=null
+return A.f("Phone call conversion action recently added or removed",t,t,t,t)})
+w($,"lEQ","hHa",()=>{var t=null
+return A.f("Website conversion action recently added or removed",t,t,t,t)})
+w($,"lEN","hH7",()=>{var t=null
+return A.f("Conversion counting setting recently changed",t,t,t,t)})
+w($,"lET","hHd",()=>{var t=null
+return A.f("Limited (bid limits)",t,t,t,t)})
+w($,"lF6","hHr",()=>{var t=null
+return A.f("Maximum and/or minimum bid limits are being met by multiple keywords or targeting methods using this bid strategy. As a result, your bids may not be fully optimized.",t,t,t,t)})
+w($,"lF7","hHs",()=>{var t=null
+return A.f("Maximum bid limits are being met by multiple keywords or targeting methods using this bid strategy. As a result, your bids may not be fully optimized.",t,t,t,t)})
+w($,"lEV","hHf",()=>{var t=null
+return A.f("Limited (budget constrained)",t,t,t,t)})
+w($,"lEU","hHe",()=>{var t=null
+return A.f("This strategy is limited by budget. Increasing your budget can help the bid strategy meet your goals.",t,t,t,t)})
+w($,"lF1","hHm",()=>{var t=null
+return A.f("Limited (low inventory)",t,t,t,t)})
+w($,"lEY","hHi",()=>{var t=null
+return A.f("Your ads are only eligible to be shown on a limited number of searches based on your current keywords. Add additional relevant keywords or Dynamic Search Ads to help get more clicks.",t,t,t,t)})
+w($,"lF_","hHk",()=>{var t=null
+return A.f("Your ads are only eligible to be shown on a limited number of searches based on your current keywords. Add additional relevant keywords or Dynamic Search Ads to help get more conversions.",t,t,t,t)})
+w($,"lEZ","hHj",()=>{var t=null
+return A.f("Your ads are only eligible to be shown on a limited number of searches based on your current keywords. Add additional relevant keywords or Dynamic Search Ads to help get more conversion value.",t,t,t,t)})
+w($,"lEX","hHh",()=>{var t=null
+return A.f("Limited (not enough data)",t,t,t,t)})
+v($,"lEr","hGN",()=>{var t=null
+return A.f("Google Ads doesn't have enough conversion data to optimize your bids",t,t,t,t)})
+v($,"lEs","hGO",()=>{var t=null
+return A.f("Search Ads 360 doesn't have enough conversion data to optimize your bids",t,t,t,t)})
+w($,"lF3","hHo",()=>{var t=null
+return A.f("Limited (low priority spend)",t,t,t,t)})
+w($,"lF2","hHn",()=>{var t=null
+return A.f("The target spend for this bid strategy cannot be met. The budgets associated with this strategy may be depleted by other bid strategies or manual keyword bids.",t,t,t,t)})
+w($,"lF5","hHq",()=>{var t=null
+return A.f("Limited (low Quality Score)",t,t,t,t)})
+w($,"lF4","hHp",()=>{var t=null
+return A.f("Many of the keywords associated with this bid strategy have a low Quality Score. As a result, your ads may not be displayed often enough to meet your goals.",t,t,t,t)})
+w($,"lFk","hHF",()=>{var t=null
+return A.f("Misconfigured (conversion setting)",t,t,t,t)})
+w($,"lFd","hHy",()=>{var t=null
+return A.f("You don't have any active conversion actions with the \"Include in 'Conversions'\" setting checked",t,t,t,t)})
+w($,"lFg","hHB",()=>{var t=null
+return A.f("You're missing the right conversion actions for your bid strategy",t,t,t,t)})
+w($,"lFh","hHC",()=>{var t=null
+return A.f("Missing website conversion actions",t,t,t,t)})
+w($,"lFe","hHz",()=>{var t=null
+return A.f("Targeting app installs but missing app conversion actions",t,t,t,t)})
+w($,"lFj","hHE",()=>{var t=null
+return A.f("You have call-only ads but no phone call conversion actions included in your Conversions column",t,t,t,t)})
+w($,"lFf","hHA",()=>{var t=null
+return A.f("Install conversion missing from campaign",t,t,t,t)})
+w($,"lFi","hHD",()=>{var t=null
+return A.f("All in-app conversions removed from campaign",t,t,t,t)})
+w($,"lFm","hHH",()=>{var t=null
+return A.f("Misconfigured (invalid bid strategy)",t,t,t,t)})
+w($,"lFl","hHG",()=>{var t=null
+return A.f("Bidding strategy is invalid. Select a new bidding strategy to start running ads",t,t,t,t)})
+w($,"lFK","hI0",()=>{var t=null
+return A.f("Misconfigured (shared budgets)",t,t,t,t)})
+w($,"lFD","hHU",()=>A.f("Discovery campaigns do not currently support using shared budgets and won\u2019t be able to properly target a cost-per-action. Remove this campaign from the shared budget and add it to its own separate budget to ensure it performs optimally.",null,"Messages_sharedBudgetDiscoveryCampaignTargetCpaFix",null,null))
+w($,"lFE","hHV",()=>A.f("Discovery campaigns do not currently support using shared budgets and won\u2019t be able to properly target a return-on-ad-spend. Remove this campaign from the shared budget and add it to its own separate budget to ensure it performs optimally.",null,"Messages_sharedBudgetDiscoveryCampaignTargetRoasFix",null,null))
+w($,"lFI","hHZ",()=>{var t=null
+return A.f("This campaign is part of a misconfigured portfolio bid strategy.",t,t,t,t)})
+w($,"lFF","hHW",()=>{var t=null
+return A.f("This portfolio contains campaigns that share budgets with other campaigns outside the portfolio.",t,t,t,t)})
+w($,"lFG","hHX",()=>{var t=null
+return A.f("This campaign shares a budget with other campaigns.",t,t,t,t)})
+w($,"lFH","hHY",()=>{var t=null
+return A.f("Some campaigns that are using different bid strategies are sharing budgets.",t,t,t,t)})
+w($,"lFu","hHM",()=>{var t=null
+return A.f("Misconfigured (Smart Shopping campaign requirements)",t,t,t,t)})
+w($,"lFt","hHL",()=>{var t=null
+return A.f("Smart Shopping campaign requirements",t,t,t,t)})
+w($,"lFn","epv",()=>{var t=null
+return A.f("Your campaign is running with limited performance",t,t,t,t)})
+w($,"lFo","hHI",()=>{var t=null
+return A.f("To see reporting and improve your performance, coverage, and spend:",t,t,t,t)})
+w($,"lFp","epw",()=>{var t=null
+return A.f("Set up conversion tracking for your account to improve your performance, spending, and see reporting",t,t,t,t)})
+w($,"lFq","hHJ",()=>{var t=null
+return A.f("Set up conversion tracking for your account",t,t,t,t)})
+w($,"lFr","epx",()=>{var t=null
+return A.f("Add remarketing lists with active users to improve your performance and coverage",t,t,t,t)})
+w($,"lFs","hHK",()=>{var t=null
+return A.f("Add remarketing lists with active users",t,t,t,t)})
+w($,"lEC","hGX",()=>{var t=null
+return A.f("The bid strategy is inactive. Here are some reasons why a bid strategy might be inactive:",t,t,t,t)})
+w($,"lED","hGY",()=>{var t=null
+return A.f("The bid strategy is inactive",t,t,t,t)})
+w($,"lEE","hGZ",()=>{var t=null
+return A.f("There are no campaigns attached to this strategy.",t,t,t,t)})
+w($,"lEF","hH_",()=>{var t=null
+return A.f("All keywords or ads using this strategy are paused.",t,t,t,t)})
+w($,"lEA","hGW",()=>{var t=null
+return A.f("A prepaid budget has been spent.",t,t,t,t)})
+w($,"lFM","hI1",()=>{var t=null
+return A.f("Status is not yet available for this strategy type",t,t,t,t)})
+w($,"lFO","hI2",()=>{var t=null
+return A.f("The bid strategy is setting bids to optimize performance. No changes are needed at this time.",t,t,t,t)})
+w($,"lFa","hHv",()=>{var t=null
+return A.f("This bid strategy maximizes conversions within your budget. No changes are needed at this time.",t,t,t,t)})
+w($,"lFb","hHw",()=>{var t=null
+return A.f("This bid strategy maximizes conversion value within your budget. No changes are needed at this time.",t,t,t,t)})
+w($,"lFw","hHN",()=>{var t=null
+return A.f("The bid strategy had various statuses",t,t,t,t)})
+w($,"lFx","hHO",()=>{var t=null
+return A.f("The bid strategy had various learning statuses",t,t,t,t)})
+w($,"lFy","hHP",()=>{var t=null
+return A.f("The bid strategy had various limited statuses",t,t,t,t)})
+w($,"lFz","hHQ",()=>{var t=null
+return A.f("The bid strategy had various misconfigured statuses",t,t,t,t)})
+v($,"mrc","inL",()=>A.b3("ads.awapps2.shared.bidding.bidding_strategy_status.renderer.status_renderer.delegate"))
+v($,"ms1","bck",()=>A.rG("#,##0.##",null))
+v($,"ms9","a2k",()=>A.rG("#.##%",null))
+u($,"l4m","haO",()=>A.eY([B.hs],A.c("hI*")))
+u($,"mrd","inM",()=>A.b3("PlaceController"))})()}
+$__dart_deferred_initializers__["xaTU547kpCp5eZPqoqkzpmCvcTA="] = $__dart_deferred_initializers__.current
+
+//# sourceMappingURL=blend_main.dart.js_312.part.js.map

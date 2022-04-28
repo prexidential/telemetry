@@ -1,0 +1,9 @@
+self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
+$__dart_deferred_initializers__.current=function(a,b,c,$){var A
+a.setFunctionNamesIfNecessary([])
+A=c[0]
+var z=a.updateTypes([]);(function staticFields(){$.i0=A.L(A.c("O"),A.c("oz"))
+$.jO=A.L(A.c("O"),A.c("G<G<O>>"))})()}
+$__dart_deferred_initializers__["KHUx9agwQfnVYOGewIQXkrl2lJo="] = $__dart_deferred_initializers__.current
+
+//# sourceMappingURL=blend_main.dart.js_179.part.js.map

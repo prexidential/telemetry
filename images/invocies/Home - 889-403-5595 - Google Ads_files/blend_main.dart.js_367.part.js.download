@@ -1,0 +1,17 @@
+self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
+$__dart_deferred_initializers__.current=function(a,b,c,$){var A={byA:function byA(d,e){this.a=d
+this.b=e}},B,C
+a.setFunctionNamesIfNecessary([A])
+A=a.updateHolder(c[213],A)
+B=c[0]
+C=c[336]
+A.byA.prototype={
+Y(d){return"ThresholdUnit."+this.b}}
+var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
+y(A.byA,B.iL)})()
+B.b_(b.typeUniverse,JSON.parse('{"No":{"ag":[]}}'));(function constants(){C.eJA=new A.byA(0,"pixel")
+C.aDw=new A.byA(1,"percent")
+C.G9=B.H("b2o")})()}
+$__dart_deferred_initializers__["tmvcIHDgcWo/ZOKUDSuHaWTZtsA="] = $__dart_deferred_initializers__.current
+
+//# sourceMappingURL=blend_main.dart.js_367.part.js.map

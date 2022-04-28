@@ -1,0 +1,10 @@
+self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
+$__dart_deferred_initializers__.current=function(a,b,c,$){var A={
+iNk(d,e,f){return new B.as(d,e,f.i("as<0>"))}},B
+a.setFunctionNamesIfNecessary([A])
+A=a.updateHolder(c[229],A)
+B=c[0]
+var z=a.updateTypes([])}
+$__dart_deferred_initializers__["R47/vKAS6UtOc5Vr/zQ5meRmRtk="] = $__dart_deferred_initializers__.current
+
+//# sourceMappingURL=blend_main.dart.js_235.part.js.map

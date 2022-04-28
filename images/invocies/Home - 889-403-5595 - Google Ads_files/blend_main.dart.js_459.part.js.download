@@ -1,0 +1,13 @@
+self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
+$__dart_deferred_initializers__.current=function(a,b,c,$){var A={mn:function mn(){}},B
+a.setFunctionNamesIfNecessary([A])
+A=a.updateHolder(c[135],A)
+B=c[0]
+A.mn.prototype={}
+var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
+y(A.mn,B.O)})()
+B.b_(b.typeUniverse,JSON.parse("{}"))
+B.pR(b.typeUniverse,JSON.parse('{"mn":1}'))}
+$__dart_deferred_initializers__["a9TivtZHnQ3RGNbtoLYKVflYOcY="] = $__dart_deferred_initializers__.current
+
+//# sourceMappingURL=blend_main.dart.js_459.part.js.map
